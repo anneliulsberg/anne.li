@@ -245,8 +245,66 @@ body {
 #group6 {
 	z-index: 2; /* slide under group 5 and 7 */
 }
+
 #group6 .parallax__layer--back {
 	background: rgb(189, 229, 235);
+}
+
+#group6 #tools {
+	width: 1000px;
+}
+
+#group6 ul {
+	text-align: center;
+}
+
+#group6 ul li {
+	float: left;
+	height: 100px;
+	margin: 0 auto;
+	padding-left: 40px;	
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+#group6 span {
+	display: none;
+}
+
+#group6 li:nth-child(1) {
+	background-image: url(../images/Ps.png);
+	background-repeat: no-repeat;
+	width: 100px;
+}
+
+#group6 li:nth-child(2) {
+	background-image: url(../images/Ai.png);
+	background-repeat: no-repeat;
+	width: 100px;
+}
+
+#group6 li:nth-child(3) {
+	background-image: url(../images/Ae.png);
+	background-repeat: no-repeat;
+	width: 100px;
+}
+
+#group6 li:nth-child(4) {
+	background-image: url(../images/Bamboo.png);
+	background-repeat: no-repeat;
+	width: 482px;
+}
+
+#group6 li:nth-child(5) {
+	background-image: url(../images/Octocat.png);
+	background-repeat: no-repeat;
+	width: 117px;
+}
+
+#group6 li:nth-child(6) {
+	background-image: url(../images/espresso-icon.png);
+	background-repeat: no-repeat;
+	width: 95px;
 }
 
 #group7 {
