@@ -128,7 +128,9 @@ body {
 	z-index: 3; /* slide under groups 1 and 3 */
 }
 #group2 .parallax__layer--back {
-	background: rgb(123,210,102);
+	background-image: url(../images/illustration-bg-grey.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 #group3 {
