@@ -137,7 +137,13 @@ body {
 	z-index: 4; /* slide over group 2 and 4 */
 }
 #group3 .parallax__layer--base {
-	background: rgb(153,216,101);
+	background: rgb(23,146,177);
+}
+
+#group3 h3 {
+	color: rgb(255, 255, 255);
+	font-size: 60px;
+	font-weight: 300;
 }
 
 #group4 {
