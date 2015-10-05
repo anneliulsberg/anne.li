@@ -165,6 +165,83 @@ body {
 	background: rgb(255,255,255);
 }
 
+#group5 h4 {
+	font-size: 30px;
+}
+
+#group5 h4 a {
+	border: 2px solid #434343;
+	border-radius: 4px;
+	color: #434343;
+	text-decoration: none;
+	padding: 10px 40px;
+}
+
+#group5 h4 a:hover {
+	border: 2px solid #1792b1;
+	color: #1792b1;
+}
+
+#group5 ul {
+	min-width: 980px;
+}
+
+#group5 ul li {
+	float: left;
+}
+
+#group5 ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	width: 200px;
+	height: 220px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+	position: relative;
+}
+
+#group5 .projects a span {
+	display: none;
+}
+
+#group5 .projects a:hover span {
+	display: block;
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	z-index: 2;
+	text-align: center;
+} 
+
+#group5 .projects a:hover::before {
+	display: block;
+	content: ' ';
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	border-radius: 100px / 107px;
+}
+
+
+#group5 li:nth-child(1) a {
+	background-image: url(../images/oppen.png);
+}
+#group5 li:nth-child(2) a {
+	background-image: url(../images/mikroaktiv.png);
+}
+
+#group5 li:nth-child(3) a {
+	background-image: url(../images/florian.png);
+}
+
+#group5 li:nth-child(4) a {
+	background-image: url(../images/kt-despicable.png);
+	margin-right: 0;
+}
+
 #group6 {
 	z-index: 2; /* slide under group 5 and 7 */
 }
