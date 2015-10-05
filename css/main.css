@@ -176,7 +176,8 @@ body {
 	z-index: 3; /* slide over group 7 */
 }
 #group7 .parallax__layer--base {
-	background: rgb(125, 126, 126);
+	background-color: #434343;
+	color: #fff;
 }
 
 
