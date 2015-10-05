@@ -5,6 +5,10 @@ body, html {
 	overflow: hidden;
 }
 
+body {
+	font-family: 'Roboto', Helvetica, sans-serif;
+}
+
 /* Parallax base styles
 --------------------------------------------- */
 
