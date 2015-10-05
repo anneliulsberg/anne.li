@@ -150,10 +150,12 @@ body {
 	z-index: 2; /* slide under group 3 and 5 */
 }
 #group4 .parallax__layer--deep {
+	background-color: #ecedee;
 	background-image: url(../images/illustration-bg-grey.png);
 	background-size: 100%;
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	margin-top: -1000px;
+	margin-left: -50px;
 }
 
 #group5 {
