@@ -104,7 +104,24 @@ body {
 	z-index: 5; /* slide over group 2 */
 }
 #group1 .parallax__layer--base {
-	background: rgb(102,204,102);
+	background: rgb(255,255,255);
+}
+
+#group1 h1, h2 {
+	text-align: left;
+	font-weight: 900;
+	font-size: 60px;
+	color: #434343;
+}
+
+#group1 h2 {
+	margin-bottom: 20px;
+}
+
+#group1 p {
+	text-align: left;
+	font-size: 18px;
+	color: #434343;
 }
 
 #group2 {
