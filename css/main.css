@@ -104,7 +104,7 @@ body {
 	z-index: 5; /* slide over group 2 */
 }
 #group1 .parallax__layer--base {
-	background: rgb(255,255,255);
+	background: rgba(255,255,255, 0.97);
 }
 
 #group1 h1, h2 {
@@ -127,6 +127,7 @@ body {
 #group2 {
 	z-index: 3; /* slide under groups 1 and 3 */
 }
+
 #group2 .parallax__layer--back {
 	background-image: url(../images/illustration-bg-grey.png);
 	background-size: 100%;
@@ -136,8 +137,9 @@ body {
 #group3 {
 	z-index: 4; /* slide over group 2 and 4 */
 }
+
 #group3 .parallax__layer--base {
-	background: rgb(23,146,177);
+	background: rgba(23,146,177, 0.97);
 }
 
 #group3 h3 {
