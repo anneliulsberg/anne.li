@@ -290,9 +290,9 @@ body {
 }
 
 #group6 li:nth-child(4) {
-	background-image: url(../images/Bamboo.png);
+	background-image: url(../images/espresso-icon.png);
 	background-repeat: no-repeat;
-	width: 482px;
+	width: 95px;
 }
 
 #group6 li:nth-child(5) {
@@ -302,9 +302,9 @@ body {
 }
 
 #group6 li:nth-child(6) {
-	background-image: url(../images/espresso-icon.png);
+	background-image: url(../images/Bamboo.png);
 	background-repeat: no-repeat;
-	width: 95px;
+	width: 482px;
 }
 
 #group7 {
