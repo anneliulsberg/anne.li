@@ -225,7 +225,6 @@ body {
 	border-radius: 100px / 107px;
 }
 
-
 #group5 li:nth-child(1) a {
 	background-image: url(../images/oppen.png);
 }
@@ -250,21 +249,10 @@ body {
 	background: rgb(189, 229, 235);
 }
 
-#group6 #tools {
-	width: 1000px;
-}
-
-#group6 ul {
-	text-align: center;
-}
-
-#group6 ul li {
-	float: left;
+#group6 ul#tools li {
+	display: inline-block;
 	height: 100px;
-	margin: 0 auto;
-	padding-left: 40px;	
-	padding-bottom: 40px;
-	text-align: center;
+	margin: 20px 20px;
 }
 
 #group6 span {
