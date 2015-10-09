@@ -204,6 +204,9 @@ body {
 	margin-bottom: 60px;
 	position: relative;
 	border-radius: 4px;
+	transition: all 0.3s;
+	background-size: 100%;
+	background-position: 0px 0px;
 }
 
 #group5 .projects a span {
@@ -218,6 +221,10 @@ body {
 	z-index: 2;
 	text-align: center;
 } 
+
+#group5 .projects a:hover {
+	background-size: 110%;
+}
 
 #group5 .projects a:hover::before {
 	display: block;
