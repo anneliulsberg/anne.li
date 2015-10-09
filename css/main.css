@@ -222,22 +222,22 @@ body {
 	height: 100%;
 	position: absolute;
 	z-index: 1;
-	border-radius: 100px / 107px;
+	border-radius: 4px;
 }
 
 #group5 li:nth-child(1) a {
-	background-image: url(../images/oppen.png);
+	background-image: url(../images/oppen.jpg);
 }
 #group5 li:nth-child(2) a {
-	background-image: url(../images/mikroaktiv.png);
+	background-image: url(../images/mikroaktiv.jpg);
 }
 
 #group5 li:nth-child(3) a {
-	background-image: url(../images/florian.png);
+	background-image: url(../images/florian.jpg);
 }
 
 #group5 li:nth-child(4) a {
-	background-image: url(../images/kt-despicable.png);
+	background-image: url(../images/kt-despicable.jpg);
 	margin-right: 0;
 }
 
