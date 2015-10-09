@@ -190,7 +190,8 @@ body {
 }
 
 #group5 ul li {
-	float: left;
+	display: inline-block;
+	text-align: center;
 }
 
 #group5 ul li a {
