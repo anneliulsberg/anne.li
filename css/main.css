@@ -173,7 +173,7 @@ body {
 }
 
 #group5 h4 a {
-	border: 2px solid #434343;
+	border: 1px solid #434343;
 	border-radius: 4px;
 	color: #434343;
 	text-decoration: none;
@@ -181,7 +181,7 @@ body {
 }
 
 #group5 h4 a:hover {
-	border: 2px solid #1792b1;
+	border: 1px solid #1792b1;
 	color: #1792b1;
 }
 
