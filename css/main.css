@@ -137,8 +137,9 @@ p {
 
 #group1 p {
 	text-align: left;
-	font-size: 18px;
+	font-size: 20px;
 	color: #434343;
+	margin-bottom: 10px;
 }
 
 #group2 {
