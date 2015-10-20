@@ -16,6 +16,12 @@ h3 {
 	margin-bottom: 30px;
 }
 
+p {
+	font-weight: 300;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 /* Parallax base styles
 --------------------------------------------- */
 
@@ -113,15 +119,19 @@ h3 {
 #group1 .parallax__layer--base {
 	background: rgba(255,255,255, 0.97);
 }
-
-#group1 h1, h2 {
+#group1 h1,
+#group1 h2 {
 	text-align: left;
 	font-weight: 900;
-	font-size: 60px;
 	color: #434343;
 }
 
+#group1 h1 {
+	font-size: 130px;
+}
+
 #group1 h2 {
+	font-size: 80px;
 	margin-bottom: 20px;
 }
 
