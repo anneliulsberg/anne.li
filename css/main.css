@@ -173,15 +173,15 @@ h3 {
 }
 
 #group5 h4 {
-	font-size: 30px;
+	font-size: 20px;
 	height: 40px;
 	margin-top: 15px;
 	margin-bottom: 3px;
+	font-weight: 300;
 }
 
 #group5 h4 a {
 	border: 1px solid #434343;
-	border-radius: 4px;
 	color: #434343;
 	text-decoration: none;
 	padding: 10px 173px;
