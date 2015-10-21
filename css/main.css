@@ -304,19 +304,19 @@ p {
 }
 
 #group6 li:nth-child(1) {
-	background-image: url(../images/Ps.png);
+	background-image: url(../images/ps.png);
 	background-repeat: no-repeat;
 	width: 100px;
 }
 
 #group6 li:nth-child(2) {
-	background-image: url(../images/Ai.png);
+	background-image: url(../images/ai.png);
 	background-repeat: no-repeat;
 	width: 100px;
 }
 
 #group6 li:nth-child(3) {
-	background-image: url(../images/Ae.png);
+	background-image: url(../images/ae.png);
 	background-repeat: no-repeat;
 	width: 100px;
 }
@@ -328,13 +328,13 @@ p {
 }
 
 #group6 li:nth-child(5) {
-	background-image: url(../images/Octocat.png);
+	background-image: url(../images/octocat.png);
 	background-repeat: no-repeat;
 	width: 117px;
 }
 
 #group6 li:nth-child(6) {
-	background-image: url(../images/Bamboo.png);
+	background-image: url(../images/bamboo.png);
 	background-repeat: no-repeat;
 	width: 482px;
 }
@@ -381,7 +381,7 @@ p {
 }
 
 #group7 li:nth-child(2) a {
-	background-image: url(../images/FB-white-100.png);
+	background-image: url(../images/fb-white-100.png);
 	width: 100px;
 }
 
@@ -414,7 +414,7 @@ p {
 }
 
 #group7 li:nth-child(2) a:hover {
-	background-image: url(../images/FB-white-100-h.png);
+	background-image: url(../images/fb-white-100-h.png);
 	width: 100px;
 }
 
