@@ -401,6 +401,37 @@ p {
 	margin-right: 0;
 }
 
+#group7 li a:hover {
+	-webkit-transition: background 200ms ease-in 100ms; 
+	-moz-transition: background 200ms ease-in 100ms;
+	-o-transition: background 200ms ease-in 100ms;
+	transition: background 200ms ease-in 100ms;
+}
+
+#group7 li:nth-child(1) a:hover {
+	background-image: url(../images/in-h.png);
+	width: 111px;
+}
+
+#group7 li:nth-child(2) a:hover {
+	background-image: url(../images/FB-white-100-h.png);
+	width: 100px;
+}
+
+#group7 li:nth-child(3) a:hover {
+	background-image: url(../images/mail-h.png);
+	width: 156px;
+}
+
+#group7 li:nth-child(4) a:hover {
+	background-image: url(../images/github-h.png);
+	width: 103px;
+}
+
+#group7 li:nth-child(5) a:hover {
+	background-image: url(../images/twitter-h.png);
+}
+
 #group7 ul li a span {
 	display: none;
 }
