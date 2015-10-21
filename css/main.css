@@ -355,6 +355,27 @@ p {
 	margin-bottom: 60px;
 }
 
+#group7 ul {
+	min-width: 833px;
+}
+
+#group7 ul li {
+	display: inline-block;
+	text-align: center;
+}
+
+#group7 ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	height: 100px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+	position: relative;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
 
 
 
