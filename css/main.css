@@ -376,6 +376,31 @@ p {
 	position: relative;
 }
 
+#group7 li:nth-child(1) a {
+	background-image: url(../images/in.png);
+	width: 111px;
+}
+
+#group7 li:nth-child(2) a {
+	background-image: url(../images/FB-white-100.png);
+	width: 100px;
+}
+
+#group7 li:nth-child(3) a {
+	background-image: url(../images/mail.png);
+	width: 156px;
+}
+
+#group7 li:nth-child(4) a {
+	background-image: url(../images/github.png);
+	width: 103px;
+}
+
+#group7 li:nth-child(5) a {
+	background-image: url(../images/twitter.png);
+	width: 123px;
+	margin-right: 0;
+}
 
 
 
