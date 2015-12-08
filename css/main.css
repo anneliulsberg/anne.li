@@ -208,23 +208,25 @@ p {
 }
 
 #group5 ul li {
-	display: inline-block;
-	text-align: center;
+	position: relative;
+	float: left;
+	width: 20%;
+	padding-bottom: 20%;
 }
 
 #group5 ul li a {
-	display: block;
-	text-decoration: none;
 	color: #fff;
-	width: 250px;
-	height: 250px;
-	margin-right: 60px;
-	margin-bottom: 60px;
-	position: relative;
-	border-radius: 4px;
+	left: 2px;
+	right: 2px;
+	top: 2px;
+	bottom: 2px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
 	transition: all 0.3s;
 	background-size: 101%;
 	background-position: 0px 0px;
+	background-repeat: no-repeat;
 }
 
 #group5 .projects a span {
