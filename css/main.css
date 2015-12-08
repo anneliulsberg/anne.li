@@ -181,24 +181,8 @@ p {
 	z-index: 3; /* slide over group 4 and 6 */
 }
 
-#group5 h4 {
-	font-size: 20px;
-	height: 40px;
-	margin-top: 15px;
-	margin-bottom: 3px;
-	font-weight: 300;
 }
 
-#group5 h4 a {
-	border: 1px solid #434343;
-	color: #434343;
-	text-decoration: none;
-	padding: 10px 173px;
-}
-
-#group5 h4 a:hover {
-	border: 1px solid #1792b1;
-	color: #1792b1;
 }
 
 #group5 ul {
