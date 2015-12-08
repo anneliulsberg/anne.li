@@ -295,6 +295,8 @@ p {
 	background-repeat: repeat-y;
 }
 
+#group6 .parallax__layer--base {
+	background-color: rgba(224, 233, 237, 0.97);
 }
 
 #group6 ul#tools li {
