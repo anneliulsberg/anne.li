@@ -1,0 +1,170 @@
+@import url("reset.css");
+
+body {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	color: #434343;
+}
+
+#intro {
+	width: 100%;
+	background-color: rgba(255, 255, 255, .95);
+	padding: 100px 0 0px 0;
+}
+
+#intro-container {	
+	width: 90%;
+	margin: 0 auto;
+}
+
+#intro h1 {
+	font-size: 60px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+#intro p {
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+#intro-img img {
+	width: 100%;
+}
+
+#info-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#info-container article {
+	width: 33%;
+	float: left;
+}
+
+#info-container article h2 {
+	padding: 40px 20px 0 20px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#info-container article p {
+	padding: 20px 20px;
+}
+
+#info-container a {
+	padding-right: 25px;
+	margin-left: 20px;
+	color: #000;
+	text-decoration: none;
+	background-image: url(../images/arrow-right.png);
+	background-repeat: no-repeat;
+	background-size: 10px;
+	background-position: 80px;
+}
+
+#info-container a:hover {
+	background-position: 85px;
+	-webkit-transition: background 100ms ease-in-out; 
+	-moz-transition: background 100ms ease-in-out;
+	-o-transition: background 100ms ease-in-out;
+	transition: background 100ms ease-in-out;
+}
+
+#showcase-img {
+	margin-top: 60px;
+}
+
+#showcase-img img {
+	width: 100%;
+	display: block;
+}
+
+#project-profile {
+	position: relative;
+}
+
+#project-font {
+	width: 25%;
+	background-color: #f9f9f9;
+	height: 255px;
+	text-align: center;
+}
+
+#project-font p {
+	font-family: ;
+	font-size: 30px;
+	padding-top: 117px
+}
+
+#project-logo {
+	width: 25%;
+	background-color: #efefef;
+	height: 255px;
+	position: absolute;
+	left: 25%;
+	top: 0;
+	text-align: center;
+}
+
+#color-profile {
+	width: 50%;
+	height: 255px;
+	position: absolute;
+	left: 50%;
+	top: 0;
+}
+
+#color-profile ul li#color-1 {
+	width: 25%;
+	height: 255px;
+}
+
+#color-profile ul li#color-2 {
+	width: 15%;
+	height: 255px;
+	position: absolute;
+	top: 0;
+	left: 25%;
+}
+
+#color-profile ul li#color-3 {
+	width: 60%;
+	height: 85px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#color-profile ul li#color-4 {
+	width: 60%;
+	height: 85px;
+	position: absolute;
+	top: 85px;
+	right: 0;
+}
+
+#color-profile ul li#color-5 {
+	width: 60%;
+	height: 85px;
+	position: absolute;
+	top: 170px;
+	right: 0;
+}
+
+#process img {
+	display: block;
+	float: left;
+}
+
+#process-img-1 {
+	width: 33.33%;
+}
+
+#process-img-2 {
+	width: 33.33%;
+}
+
+#process-img-3 {
+	width: 33.33%;
+}
