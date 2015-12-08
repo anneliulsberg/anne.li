@@ -259,6 +259,7 @@ p {
 #group5 li:nth-child(1) a {
 	background-image: url(../images/oppen.jpg);
 }
+
 #group5 li:nth-child(2) a {
 	background-image: url(../images/mikroaktiv.jpg);
 }
@@ -271,6 +272,28 @@ p {
 	background-image: url(../images/kt-despicable.jpg);
 }
 
+#group5 li:nth-child(5) a {
+	background-image: url(../images/florian.jpg);
+}
+
+#group5 li:nth-child(6) a {
+	background-image: url(../images/florian.jpg);
+}
+
+#group5 li:nth-child(7) a {
+	background-image: url(../images/florian.jpg);
+}
+
+#group5 li:nth-child(8) a {
+	background-image: url(../images/florian.jpg);
+}
+
+#group5 li:nth-child(9) a {
+	background-image: url(../images/florian.jpg);
+}
+
+#group5 li:nth-child(10) a {
+	background-image: url(../images/florian.jpg);
 #group5 p {
 	margin-bottom: 60px;
 	font-size: 20px;
