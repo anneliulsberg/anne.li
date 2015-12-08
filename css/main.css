@@ -190,6 +190,11 @@ p {
 	margin-bottom: 30px;
 }
 
+#group5 p {
+	color: #fff;
+	font-weight: 300;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #group5 ul li {
