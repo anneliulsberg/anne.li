@@ -253,7 +253,6 @@ p {
 	height: 100%;
 	position: absolute;
 	z-index: 1;
-	border-radius: 4px;
 }
 
 #group5 li:nth-child(1) a {
