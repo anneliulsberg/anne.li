@@ -290,7 +290,11 @@ p {
 }
 
 #group6 .parallax__layer--back {
-	background: rgb(189, 229, 235);
+	background-image: url(../images/illustration-bg-grey.png);
+	background-size: 100%;
+	background-repeat: repeat-y;
+}
+
 }
 
 #group6 ul#tools li {
