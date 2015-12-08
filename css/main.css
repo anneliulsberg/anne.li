@@ -183,6 +183,11 @@ p {
 
 }
 
+#group5 h4 {
+	font-size: 60px;
+	font-weight: 900;
+	color: #fff;
+	margin-bottom: 30px;
 }
 
 #group5 ul {
