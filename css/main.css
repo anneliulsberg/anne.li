@@ -180,9 +180,6 @@ p {
 #group5 {
 	z-index: 3; /* slide over group 4 and 6 */
 }
-#group5 .parallax__layer--base {
-	background: rgb(255,255,255);
-}
 
 #group5 h4 {
 	font-size: 20px;
