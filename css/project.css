@@ -159,6 +159,39 @@ body {
 	right: 0;
 }
 
+#project-video-width {
+	background-color: #000;
+}
+
+#project-video-wrapper {
+	background-color: #000;
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+#project-video {
+	position: relative;
+	padding-bottom: 70%;
+	padding-top: 25px;
+	height: 0;
+}
+
+#project-video iframe {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#process-big {
+	display: block;
+	width: 100%;
+}
+
 #process img {
 	display: block;
 	float: left;
