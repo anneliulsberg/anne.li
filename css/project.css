@@ -107,6 +107,13 @@ body {
 	text-align: center;
 }
 
+#project-logo img {
+	width: 50%;
+	position: absolute;
+	top: 40%;
+	left: 25%;
+}
+
 #color-profile {
 	width: 50%;
 	height: 255px;
