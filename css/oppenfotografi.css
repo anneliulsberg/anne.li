@@ -1,0 +1,28 @@
+@import url("reset.css");
+@import url("project.css");
+
+#project-font p {
+	font-family: 'Economica';
+	font-size: 30px;
+	padding-top: 117px
+}
+
+#color-profile ul li#color-1 {
+	background-color: #A1D83B;
+}
+
+#color-profile ul li#color-2 {
+	background-color: #484848;
+}
+
+#color-profile ul li#color-3 {
+	background-color: #A9A8A7;
+}
+
+#color-profile ul li#color-4 {
+	background-color: #DDDCDC;
+}
+
+#color-profile ul li#color-5 {
+	background-color: #F4F4F4;
+}
