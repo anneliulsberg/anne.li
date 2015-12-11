@@ -1,0 +1,35 @@
+@import url("reset.css");
+@import url("project.css");
+
+#project-font p {
+	font-family: 'Sigmar one';
+	font-size: 30px;
+	padding-top: 117px
+}
+
+#project-logo img {
+	width: 35%;
+	position: absolute;
+	top: 10%;
+	left: 32%;
+}
+
+#color-profile ul li#color-1 {
+	background-color: #696A68;
+}
+
+#color-profile ul li#color-2 {
+	background-color: #E2F0E4;
+}
+
+#color-profile ul li#color-3 {
+	background-color: #D60100;
+}
+
+#color-profile ul li#color-4 {
+	background-color: #0000AB;
+}
+
+#color-profile ul li#color-5 {
+	background-color: #009C00;
+}
