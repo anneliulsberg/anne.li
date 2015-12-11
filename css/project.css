@@ -195,16 +195,5 @@ body {
 #process img {
 	display: block;
 	float: left;
-}
-
-#process-img-1 {
-	width: 33.33%;
-}
-
-#process-img-2 {
-	width: 33.33%;
-}
-
-#process-img-3 {
 	width: 33.33%;
 }
