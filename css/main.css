@@ -377,32 +377,32 @@ p {
 	background-repeat: repeat-y;
 }*/
 
-#group7 {
+#group5 {
 	z-index: 3; /* slide over group 7 */
 }
-#group7 .parallax__layer--base {
+#group5 .parallax__layer--base {
 	background-color: #434343;
 	color: #fff;
 }
 
-#group7 h3 {
+#group5 h3 {
 	color: #fff;
 }
 
-#group7 p {
+#group5 p {
 	margin-bottom: 60px;
 }
 
-#group7 ul {
+#group5 ul {
 	min-width: 833px;
 }
 
-#group7 ul li {
+#group5 ul li {
 	display: inline-block;
 	text-align: center;
 }
 
-#group7 ul li a {
+#group5 ul li a {
 	display: block;
 	text-decoration: none;
 	color: #fff;
@@ -413,64 +413,64 @@ p {
 	background-repeat: no-repeat;
 }
 
-#group7 li:nth-child(1) a {
+#group5 li:nth-child(1) a {
 	background-image: url(../images/in.png);
 	width: 111px;
 }
 
-#group7 li:nth-child(2) a {
+#group5 li:nth-child(2) a {
 	background-image: url(../images/fb-white-100.png);
 	width: 100px;
 }
 
-#group7 li:nth-child(3) a {
+#group5 li:nth-child(3) a {
 	background-image: url(../images/mail.png);
 	width: 156px;
 }
 
-#group7 li:nth-child(4) a {
+#group5 li:nth-child(4) a {
 	background-image: url(../images/github.png);
 	width: 103px;
 }
 
-#group7 li:nth-child(5) a {
+#group5 li:nth-child(5) a {
 	background-image: url(../images/twitter.png);
 	width: 123px;
 	margin-right: 0;
 }
 
-#group7 li a:hover {
+#group5 li a:hover {
 	-webkit-transition: background 200ms ease-in 100ms; 
 	-moz-transition: background 200ms ease-in 100ms;
 	-o-transition: background 200ms ease-in 100ms;
 	transition: background 200ms ease-in 100ms;
 }
 
-#group7 li:nth-child(1) a:hover {
+#group5 li:nth-child(1) a:hover {
 	background-image: url(../images/in-h.png);
 	width: 111px;
 }
 
-#group7 li:nth-child(2) a:hover {
+#group5 li:nth-child(2) a:hover {
 	background-image: url(../images/fb-white-100-h.png);
 	width: 100px;
 }
 
-#group7 li:nth-child(3) a:hover {
+#group5 li:nth-child(3) a:hover {
 	background-image: url(../images/mail-h.png);
 	width: 156px;
 }
 
-#group7 li:nth-child(4) a:hover {
+#group5 li:nth-child(4) a:hover {
 	background-image: url(../images/github-h.png);
 	width: 103px;
 }
 
-#group7 li:nth-child(5) a:hover {
+#group5 li:nth-child(5) a:hover {
 	background-image: url(../images/twitter-h.png);
 }
 
-#group7 ul li a span {
+#group5 ul li a span {
 	display: none;
 }
 
