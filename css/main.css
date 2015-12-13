@@ -110,7 +110,7 @@ p {
 	transform: translate(-50%, -50%);*/
 	left: 0;
 	right: 0;
-	padding: 100px 20px;
+	padding: 100px 0;
 	width: 100%;
 }
 
@@ -176,10 +176,6 @@ p {
 
 #group3 {
 	z-index: 4; /* slide over group 2 and 4 */
-}
-
-#group3 .parallax__layer--base {
-
 }
 
 #group3 .parallax__layer--base .title {
@@ -297,9 +293,60 @@ p {
 	font-size: 20px;
 }
 
-
 #group4 {
 	z-index: 2; /* slide under group 3 and 5 */
+	margin-top: 20%;
+	height: 45vh;
+}
+
+#group4 .parallax__layer--base .title {
+	background: rgba(255,255,255, 0.97);
+}
+
+#group4 ul#tools li {
+	display: inline-block;
+	height: 100px;
+	margin: 20px 20px;
+}
+
+#group4 span {
+	display: none;
+}
+
+#group4 li:nth-child(1) {
+	background-image: url(../images/ps.png);
+	background-repeat: no-repeat;
+	width: 100px;
+}
+
+#group4 li:nth-child(2) {
+	background-image: url(../images/ai.png);
+	background-repeat: no-repeat;
+	width: 100px;
+}
+
+#group4 li:nth-child(3) {
+	background-image: url(../images/ae.png);
+	background-repeat: no-repeat;
+	width: 100px;
+}
+
+#group4 li:nth-child(4) {
+	background-image: url(../images/espresso-icon.png);
+	background-repeat: no-repeat;
+	width: 95px;
+}
+
+#group4 li:nth-child(5) {
+	background-image: url(../images/octocat.png);
+	background-repeat: no-repeat;
+	width: 117px;
+}
+
+#group4 li:nth-child(6) {
+	background-image: url(../images/wacom.png);
+	background-repeat: no-repeat;
+	width: 105px;
 }
 
 #group4 .parallax__layer--deep {
@@ -310,8 +357,6 @@ p {
 	margin-top: -1550px;
 	margin-left: -50px;
 }
-
-
 
 #group5 {
 	z-index: 3; /* slide over group 4 and 6 */
@@ -326,61 +371,11 @@ p {
 	z-index: 2; /* slide under group 5 and 7 */
 }
 
-#group6 .parallax__layer--back {
+/*#group6 .parallax__layer--back {
 	background-image: url(../images/illustration-bg-grey.png);
 	background-size: 100%;
 	background-repeat: repeat-y;
-}
-
-#group6 .parallax__layer--base {
-	background: rgba(255,255,255, 0.97);
-}
-
-#group6 ul#tools li {
-	display: inline-block;
-	height: 100px;
-	margin: 20px 20px;
-}
-
-#group6 span {
-	display: none;
-}
-
-#group6 li:nth-child(1) {
-	background-image: url(../images/ps.png);
-	background-repeat: no-repeat;
-	width: 100px;
-}
-
-#group6 li:nth-child(2) {
-	background-image: url(../images/ai.png);
-	background-repeat: no-repeat;
-	width: 100px;
-}
-
-#group6 li:nth-child(3) {
-	background-image: url(../images/ae.png);
-	background-repeat: no-repeat;
-	width: 100px;
-}
-
-#group6 li:nth-child(4) {
-	background-image: url(../images/espresso-icon.png);
-	background-repeat: no-repeat;
-	width: 95px;
-}
-
-#group6 li:nth-child(5) {
-	background-image: url(../images/octocat.png);
-	background-repeat: no-repeat;
-	width: 117px;
-}
-
-#group6 li:nth-child(6) {
-	background-image: url(../images/wacom.png);
-	background-repeat: no-repeat;
-	width: 105px;
-}
+}*/
 
 #group7 {
 	z-index: 3; /* slide over group 7 */
