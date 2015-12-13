@@ -162,6 +162,17 @@ p {
 	z-index: 3; /* slide under groups 1 and 3 */
 }
 
+#group2 .parallax__layer--base .title {
+	background-color: rgba(67, 67, 67, 0.97);
+}
+
+#group2 h3 {
+	color: rgb(255, 255, 255);
+	font-size: 60px;
+	font-weight: 300;
+	margin: 0 auto;
+}
+
 #group2 .parallax__layer--back {
 
 }
@@ -171,14 +182,7 @@ p {
 }
 
 #group3 .parallax__layer--base {
-	background: rgba(67, 67, 67, 0.97);
-}
 
-#group3 h3 {
-	color: rgb(255, 255, 255);
-	font-size: 60px;
-	font-weight: 300;
-	width: 567px;
 }
 
 #group4 {
