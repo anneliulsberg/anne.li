@@ -160,6 +160,7 @@ p {
 
 #group2 {
 	z-index: 3; /* slide under groups 1 and 3 */
+	height: 60vh;
 }
 
 #group2 .parallax__layer--base .title {
