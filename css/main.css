@@ -155,7 +155,7 @@ p {
 }
 
 #group3 .parallax__layer--base {
-	background: rgba(23,146,177, 0.97);
+	background: rgba(67, 67, 67, 0.97);
 }
 
 #group3 h3 {
@@ -320,7 +320,7 @@ p {
 }
 
 #group6 .parallax__layer--base {
-	background-color: rgba(224, 233, 237, 0.97);
+	background: rgba(255,255,255, 0.97);
 }
 
 #group6 ul#tools li {
