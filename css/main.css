@@ -174,10 +174,6 @@ p {
 	margin: 0 auto;
 }
 
-#group2 .parallax__layer--back {
-
-}
-
 #group3 {
 	z-index: 4; /* slide over group 2 and 4 */
 }
@@ -186,56 +182,32 @@ p {
 
 }
 
-#group4 {
-	z-index: 2; /* slide under group 3 and 5 */
-}
-
-#group4 .parallax__layer--deep {
-	background-color: #ecedee;
-	background-image: url(../images/illustration-bg-grey.png);
-	background-size: 100%;
-	background-repeat: repeat-y;
-	margin-top: -1550px;
-	margin-left: -50px;
-}
-
-#group5 {
-	z-index: 3; /* slide over group 4 and 6 */
-}
-
-#group5 .title {
+#group3 .parallax__layer--base .title {
 	background: rgb(67, 67, 67);
-	position: absolute;
-	left: 0;
-	top: 0;
-	-webkit-transform: translate(0%, 0%);
-	transform: translate(0%, 0%);
-	width: 100%;
-	padding: 100px 0 100px 0;
 }
 
-#group5 h4 {
+#group3 h4 {
 	font-size: 60px;
 	font-weight: 900;
 	color: #fff;
 	margin-bottom: 30px;
 }
 
-#group5 p {
+#group3 p {
 	color: #fff;
 	font-weight: 300;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
-#group5 ul li {
+#group3 ul li {
 	position: relative;
 	float: left;
 	width: 20%;
 	padding-bottom: 20%;
 }
 
-#group5 ul li a {
+#group3 ul li a {
 	color: #fff;
 	left: 2px;
 	right: 2px;
@@ -250,14 +222,14 @@ p {
 	background-repeat: no-repeat;
 }
 
-#group5 .projects a span {
+#group3 .projects a span {
 	display: none;
 	font-size: 20px;
 	font-weight: 900;
 	letter-spacing: 1px;
 }
 
-#group5 .projects a:hover span {
+#group3 .projects a:hover span {
 	display: block;
 	position: absolute;
 	top: 120px;
@@ -266,11 +238,11 @@ p {
 	text-align: center;
 } 
 
-#group5 .projects a:hover {
+#group3 .projects a:hover {
 	background-size: 110%;
 }
 
-#group5 .projects a:hover::before {
+#group3 .projects a:hover::before {
 	display: block;
 	content: ' ';
 	background-color: rgba(0, 0, 0, 0.5);
@@ -280,49 +252,69 @@ p {
 	z-index: 1;
 }
 
-#group5 li:nth-child(1) a {
+#group3 li:nth-child(1) a {
 	background-image: url(../images/oppen.jpg);
 }
 
-#group5 li:nth-child(2) a {
+#group3 li:nth-child(2) a {
 	background-image: url(../images/mikroaktiv.jpg);
 }
 
-#group5 li:nth-child(3) a {
+#group3 li:nth-child(3) a {
 	background-image: url(../images/florian.jpg);
 }
 
-#group5 li:nth-child(4) a {
+#group3 li:nth-child(4) a {
 	background-image: url(../images/kt-despicable.jpg);
 }
 
-#group5 li:nth-child(5) a {
+#group3 li:nth-child(5) a {
 	background-image: url(../images/kommoden.jpg);
 }
 
-#group5 li:nth-child(6) a {
+#group3 li:nth-child(6) a {
 	background-image: url(../images/16dager.jpg);
 }
 
-#group5 li:nth-child(7) a {
+#group3 li:nth-child(7) a {
 	background-image: url(../images/wow-ig.jpg);
 }
 
-#group5 li:nth-child(8) a {
+#group3 li:nth-child(8) a {
 	background-image: url(../images/go.jpg);
 }
 
-#group5 li:nth-child(9) a {
+#group3 li:nth-child(9) a {
 	background-image: url(../images/yenga.jpg);
 }
 
-#group5 li:nth-child(10) a {
+#group3 li:nth-child(10) a {
 	background-image: url(../images/kjaer.png);
 }
 
-#group5 p {
+#group3 p {
 	margin-bottom: 60px;
 	font-size: 20px;
+}
+
+
+#group4 {
+	z-index: 2; /* slide under group 3 and 5 */
+}
+
+#group4 .parallax__layer--deep {
+	background-color: #ecedee;
+	background-image: url(../images/illustration-bg-grey.png);
+	background-size: 100%;
+	background-repeat: repeat-y;
+	margin-top: -1550px;
+	margin-left: -50px;
+}
+
+
+
+#group5 {
+	z-index: 3; /* slide over group 4 and 6 */
 }
 
 #group6 p {
