@@ -296,7 +296,7 @@ p {
 #group4 {
 	z-index: 2; /* slide under group 3 and 5 */
 	margin-top: 20%;
-	height: 45vh;
+	height: 80vh;
 }
 
 #group4 .parallax__layer--base .title {
