@@ -299,6 +299,11 @@ p {
 	height: 80vh;
 }
 
+#group4 p {
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
 #group4 .parallax__layer--base .title {
 	background: rgba(255,255,255, 0.97);
 }
@@ -362,11 +367,6 @@ p {
 	z-index: 3; /* slide over group 4 and 6 */
 }
 
-#group6 p {
-	margin-bottom: 40px;
-	font-size: 20px;
-}
-
 #group6 {
 	z-index: 2; /* slide under group 5 and 7 */
 }
@@ -391,6 +391,7 @@ p {
 
 #group5 p {
 	margin-bottom: 60px;
+	font-size: 20px;
 }
 
 #group5 ul {
