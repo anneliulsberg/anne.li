@@ -295,63 +295,7 @@ p {
 
 #group4 {
 	z-index: 2; /* slide under group 3 and 5 */
-	margin-top: 20%;
-	height: 80vh;
-}
-
-#group4 p {
-	margin-bottom: 40px;
-	font-size: 20px;
-}
-
-#group4 .parallax__layer--base .title {
-	background: rgba(255,255,255, 0.97);
-}
-
-#group4 ul#tools li {
-	display: inline-block;
-	height: 100px;
-	margin: 20px 20px;
-}
-
-#group4 span {
-	display: none;
-}
-
-#group4 li:nth-child(1) {
-	background-image: url(../images/ps.png);
-	background-repeat: no-repeat;
-	width: 100px;
-}
-
-#group4 li:nth-child(2) {
-	background-image: url(../images/ai.png);
-	background-repeat: no-repeat;
-	width: 100px;
-}
-
-#group4 li:nth-child(3) {
-	background-image: url(../images/ae.png);
-	background-repeat: no-repeat;
-	width: 100px;
-}
-
-#group4 li:nth-child(4) {
-	background-image: url(../images/espresso-icon.png);
-	background-repeat: no-repeat;
-	width: 95px;
-}
-
-#group4 li:nth-child(5) {
-	background-image: url(../images/octocat.png);
-	background-repeat: no-repeat;
-	width: 117px;
-}
-
-#group4 li:nth-child(6) {
-	background-image: url(../images/wacom.png);
-	background-repeat: no-repeat;
-	width: 105px;
+	height: 50vh;
 }
 
 #group4 .parallax__layer--deep {
@@ -359,7 +303,7 @@ p {
 	background-image: url(../images/illustration-bg-grey.png);
 	background-size: 100%;
 	background-repeat: repeat-y;
-	margin-top: -1550px;
+	margin-top: -1500px;
 	margin-left: -50px;
 }
 
@@ -367,43 +311,89 @@ p {
 	z-index: 3; /* slide over group 4 and 6 */
 }
 
+#group5 p {
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+#group5 .parallax__layer--base .title {
+	background: rgba(255,255,255, 0.97);
+}
+
+#group5 ul#tools li {
+	display: inline-block;
+	height: 100px;
+	margin: 20px 20px;
+}
+
+#group5 span {
+	display: none;
+}
+
+#group5 li:nth-child(1) {
+	background-image: url(../images/ps.png);
+	background-repeat: no-repeat;
+	width: 100px;
+}
+
+#group5 li:nth-child(2) {
+	background-image: url(../images/ai.png);
+	background-repeat: no-repeat;
+	width: 100px;
+}
+
+#group5 li:nth-child(3) {
+	background-image: url(../images/ae.png);
+	background-repeat: no-repeat;
+	width: 100px;
+}
+
+#group5 li:nth-child(4) {
+	background-image: url(../images/espresso-icon.png);
+	background-repeat: no-repeat;
+	width: 95px;
+}
+
+#group5 li:nth-child(5) {
+	background-image: url(../images/octocat.png);
+	background-repeat: no-repeat;
+	width: 117px;
+}
+
+#group5 li:nth-child(6) {
+	background-image: url(../images/wacom.png);
+	background-repeat: no-repeat;
+	width: 105px;
+}
+
 #group6 {
 	z-index: 2; /* slide under group 5 and 7 */
 }
 
-/*#group6 .parallax__layer--back {
-	background-image: url(../images/illustration-bg-grey.png);
-	background-size: 100%;
-	background-repeat: repeat-y;
-}*/
-
-#group5 {
-	z-index: 3; /* slide over group 7 */
-}
-#group5 .parallax__layer--base {
+#group6 .parallax__layer--base {
 	background-color: #434343;
 	color: #fff;
 }
 
-#group5 h3 {
+#group6 h3 {
 	color: #fff;
 }
 
-#group5 p {
+#group6 p {
 	margin-bottom: 60px;
 	font-size: 20px;
 }
 
-#group5 ul {
+#group6 ul {
 	min-width: 833px;
 }
 
-#group5 ul li {
+#group6 ul li {
 	display: inline-block;
 	text-align: center;
 }
 
-#group5 ul li a {
+#group6 ul li a {
 	display: block;
 	text-decoration: none;
 	color: #fff;
@@ -414,64 +404,64 @@ p {
 	background-repeat: no-repeat;
 }
 
-#group5 li:nth-child(1) a {
+#group6 li:nth-child(1) a {
 	background-image: url(../images/in.png);
 	width: 111px;
 }
 
-#group5 li:nth-child(2) a {
+#group6 li:nth-child(2) a {
 	background-image: url(../images/fb-white-100.png);
 	width: 100px;
 }
 
-#group5 li:nth-child(3) a {
+#group6 li:nth-child(3) a {
 	background-image: url(../images/mail.png);
 	width: 156px;
 }
 
-#group5 li:nth-child(4) a {
+#group6 li:nth-child(4) a {
 	background-image: url(../images/github.png);
 	width: 103px;
 }
 
-#group5 li:nth-child(5) a {
+#group6 li:nth-child(5) a {
 	background-image: url(../images/twitter.png);
 	width: 123px;
 	margin-right: 0;
 }
 
-#group5 li a:hover {
+#group6 li a:hover {
 	-webkit-transition: background 200ms ease-in 100ms; 
 	-moz-transition: background 200ms ease-in 100ms;
 	-o-transition: background 200ms ease-in 100ms;
 	transition: background 200ms ease-in 100ms;
 }
 
-#group5 li:nth-child(1) a:hover {
+#group6 li:nth-child(1) a:hover {
 	background-image: url(../images/in-h.png);
 	width: 111px;
 }
 
-#group5 li:nth-child(2) a:hover {
+#group6 li:nth-child(2) a:hover {
 	background-image: url(../images/fb-white-100-h.png);
 	width: 100px;
 }
 
-#group5 li:nth-child(3) a:hover {
+#group6 li:nth-child(3) a:hover {
 	background-image: url(../images/mail-h.png);
 	width: 156px;
 }
 
-#group5 li:nth-child(4) a:hover {
+#group6 li:nth-child(4) a:hover {
 	background-image: url(../images/github-h.png);
 	width: 103px;
 }
 
-#group5 li:nth-child(5) a:hover {
+#group6 li:nth-child(5) a:hover {
 	background-image: url(../images/twitter-h.png);
 }
 
-#group5 ul li a span {
+#group6 ul li a span {
 	display: none;
 }
 
