@@ -10,7 +10,7 @@
 	</head>
 	
 	<body>
-		<?php include 'menu.php'; ?>
+		<?php include '../menu.php'; ?>
 		
 		<div id="intro-img">
 			<img src="../images/intro-img-16dager.jpg" alt="" />
