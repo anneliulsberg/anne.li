@@ -42,7 +42,7 @@
 				<p>Brettspillet Kommoden med det rare i er en hybrid mellom memoryspill og brettspill. Oppdraget ditt er å kle deg ut i et tildelt kostyme, bevege deg rundt på brettet for å få mulighet til å trekke et påkledningskort og komme deg først i mål når du er ferdig påkledd. Men pass deg for de røde feltene, de kan sette deg tilbake i spillprossesen. Spillmechanics er formidlet med farger og illustrasjoner slik at det er lett for barn å følge med og forstå hvordan spillet går fremover uten å måtte kunne lese. I websiden kan du lese om spillet, eventuelle nyheter og det er en aktivitetsportal der du kan kle på papirdukken i kostymene som er i spillet. Barna kan da printe ut sine valg og fargelegge disse for hånd. Spillet har utviklingspotensiale med kostymeutvidelsespakker i forskjellige temaer.</p>
 			</article>
 			
-			<a href="http://anne.li/demos/kommoden/">Visit page</a>
+			<a href="/demos/kommoden/">Visit page</a>
 		</div>
 		
 		<div id="showcase-img">

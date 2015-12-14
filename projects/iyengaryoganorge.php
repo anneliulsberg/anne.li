@@ -42,7 +42,7 @@
 				<p>Løsningen ble et design i monokrome farger i nyansen havblått som skaper et rolig utrykk. Menyen er lett tilgjengelig i toppen med undermeny for videre utforsking av siden. Siden er også laget i en 960grid for å oppnå balanse og kontroll av informasjonen. Løsningen framstår som enkel og problemfri å navigere seg rundt i.</p>
 			</article>
 			
-			<a href="http://anne.li/demos/iyengaryoganorge/">Visit page</a>
+			<a href="/demos/iyengaryoganorge/">Visit page</a>
 		</div>
 		
 		<div id="showcase-img">

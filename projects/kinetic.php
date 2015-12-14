@@ -43,7 +43,7 @@
 				</p>
 			</article>
 		
-			<a href="http://anne.li/demos/kinetic-typography/">Visit page</a>
+			<a href="/demos/kinetic-typography/">Visit page</a>
 		</div>
 		
 		<div id="showcase-img">

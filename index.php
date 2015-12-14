@@ -43,16 +43,16 @@
 				<p>These projects portray my skills in responsive design, CSS, HTML and illustration</p>
 				
 				<ul class="projects">
-					<li><a href="http://anne.li/projects/oppenfotografi.php"><span>Oppen Fotografi</span></a></li>
-					<li><a href="http://anne.li/projects/mikroaktiv.php"><span>Mikroaktiv</span></a></li>
-					<li><a href="http://anne.li/projects/florian.php"><span>Florian</span></a></li>
-					<li><a href="http://anne.li/projects/kinetic.php"><span>Kinetic typography</span></a></li>
-					<li><a href="http://anne.li/projects/kommoden.php"><span>Kommoden med det rare i</span></a></li>
-					<li><a href="http://anne.li/projects/16dager.php"><span>16 dager med aktivisme</span></a></li>
-					<li><a href="http://anne.li/projects/infographic-wow.php"><span>Infographic - WoW</span></a></li>
-					<li><a href="http://anne.li/projects/go.html"><span>go!</span></a></li>
-					<li><a href="http://anne.li/projects/iyengaryoganorge.php"><span>Iyengar yoga Norge</span></a></li>
-					<li><a href="http://anne.li/projects/kgartneri.php"><span>Kjær Gartneri</span></a></li>
+					<li><a href="/projects/oppenfotografi.php"><span>Oppen Fotografi</span></a></li>
+					<li><a href="/projects/mikroaktiv.php"><span>Mikroaktiv</span></a></li>
+					<li><a href="/projects/florian.php"><span>Florian</span></a></li>
+					<li><a href="/projects/kinetic.php"><span>Kinetic typography</span></a></li>
+					<li><a href="/projects/kommoden.php"><span>Kommoden med det rare i</span></a></li>
+					<li><a href="/projects/16dager.php"><span>16 dager med aktivisme</span></a></li>
+					<li><a href="/projects/infographic-wow.php"><span>Infographic - WoW</span></a></li>
+					<li><a href="/projects/go.html"><span>go!</span></a></li>
+					<li><a href="/projects/iyengaryoganorge.php"><span>Iyengar yoga Norge</span></a></li>
+					<li><a href="/projects/kgartneri.php"><span>Kjær Gartneri</span></a></li>
 				</ul>
 	        </div>
 	      </div>

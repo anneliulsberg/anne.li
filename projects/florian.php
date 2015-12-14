@@ -41,7 +41,7 @@
 				</p>
 			</article>
 			
-			<a href="http://anne.li/demos/florian/">Visit page</a>
+			<a href="/demos/florian/">Visit page</a>
 		</div>
 		
 		<div id="showcase-img">
