@@ -375,6 +375,12 @@ p {
 	color: #fff;
 }
 
+#group6 #footer-content {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
 #group6 h3 {
 	color: #fff;
 }
@@ -382,10 +388,6 @@ p {
 #group6 p {
 	margin-bottom: 60px;
 	font-size: 20px;
-}
-
-#group6 ul {
-	min-width: 833px;
 }
 
 #group6 ul li {
@@ -464,7 +466,6 @@ p {
 #group6 ul li a span {
 	display: none;
 }
-
 
 
 
