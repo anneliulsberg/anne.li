@@ -9,7 +9,8 @@
 	</head>
 	
 	<body>
-	
+		<?php include 'menu.php'; ?>
+		
 <!--	  <div class="debug">
 	    <label><input type="checkbox"> Debug</label>
 	  </div>-->
@@ -37,21 +38,21 @@
 	    
 	    <div id="group3" class="parallax__group">
 	      <div class="parallax__layer parallax__layer--base">
-	        <div class="title">
+	        <div class="title" id="portfolio">
 				<h4>Portfolio</h4>
 				<p>These projects portray my skills in responsive design, CSS, HTML and illustration</p>
 				
 				<ul class="projects">
-					<li><a href="http://anne.li/projects/oppenfotografi.html"><span>Oppen Fotografi</span></a></li>
-					<li><a href="http://anne.li/projects/mikroaktiv.html"><span>Mikroaktiv</span></a></li>
-					<li><a href="http://anne.li/projects/florian.html"><span>Florian</span></a></li>
-					<li><a href="http://anne.li/projects/kinetic.html"><span>Kinetic typography</span></a></li>
-					<li><a href="http://anne.li/projects/kommoden.html"><span>Kommoden med det rare i</span></a></li>
-					<li><a href="http://anne.li/projects/16dager.html"><span>16 dager med aktivisme</span></a></li>
-					<li><a href="http://anne.li/projects/infographic-wow.html"><span>Infographic - WoW</span></a></li>
+					<li><a href="http://anne.li/projects/oppenfotografi.php"><span>Oppen Fotografi</span></a></li>
+					<li><a href="http://anne.li/projects/mikroaktiv.php"><span>Mikroaktiv</span></a></li>
+					<li><a href="http://anne.li/projects/florian.php"><span>Florian</span></a></li>
+					<li><a href="http://anne.li/projects/kinetic.php"><span>Kinetic typography</span></a></li>
+					<li><a href="http://anne.li/projects/kommoden.php"><span>Kommoden med det rare i</span></a></li>
+					<li><a href="http://anne.li/projects/16dager.php"><span>16 dager med aktivisme</span></a></li>
+					<li><a href="http://anne.li/projects/infographic-wow.php"><span>Infographic - WoW</span></a></li>
 					<li><a href="http://anne.li/projects/go.html"><span>go!</span></a></li>
-					<li><a href="http://anne.li/projects/iyengaryoganorge.html"><span>Iyengar yoga Norge</span></a></li>
-					<li><a href="http://anne.li/projects/kgartneri.html"><span>Kjær Gartneri</span></a></li>
+					<li><a href="http://anne.li/projects/iyengaryoganorge.php"><span>Iyengar yoga Norge</span></a></li>
+					<li><a href="http://anne.li/projects/kgartneri.php"><span>Kjær Gartneri</span></a></li>
 				</ul>
 	        </div>
 	      </div>
@@ -65,10 +66,10 @@
 	    
 	    <div id="group5" class="parallax__group">
 	      <div class="parallax__layer parallax__layer--base">
-	        <div class="title">
+	        <div class="title" id="tools">
 	        	<h3>Tools</h3>
-	        		<p>This is the list of the tools I use while working on projects and which I have the most experience with</p>
-	        	<ul id="tools">
+        		<p>This is the list of the tools I use while working on projects and which I have the most experience with</p>
+	        	<ul>
 	        		<li><span>Adobe Photoshop</span></li>
 	        		<li><span>Adobe Illustrator</span></li>
 	        		<li><span>Adobe After Effects</span></li>
@@ -83,7 +84,7 @@
 	    <div id="group6" class="parallax__group">
 	      <div class="parallax__layer parallax__layer--base">
 	      	<div id="footer-content">
-		        <div class="title">
+		        <div class="title" id="contact">
 					<h3>Contact</h3>
 					<p>You can reach me on one or more of these places</p>
 					<ul>

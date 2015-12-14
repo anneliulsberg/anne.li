@@ -10,7 +10,8 @@
 	</head>
 	
 	<body>
-	
+		<?php include 'menu.php'; ?>
+
 		<div id="intro-img">
 			<img src="../images/intro-img-mikroaktiv.jpg" alt="" />
 		</div>
