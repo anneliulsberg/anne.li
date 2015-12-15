@@ -27,19 +27,19 @@
 		<div id="info-container">
 			<article>
 				<h2>About the project</h2>
-				<p>Dette var et skoleprosjekt hvor jeg skulle lage en kinetic typography for å lære meg å formidle informasjon på en visuell måte. 
+				<p>This was a school project for kinetic typography, to teach me how to communicate information in a visual way.
 				</p>
 			</article>
 			
 			<article>
 				<h2>Challenges</h2>
-				<p>i dette prosjektet var det viktig å holde fokus på å klare å formidle informasjon på en forenklet visuell måte slik at det ble lette å henge med i dialogen samtidig som den skapte en historie.
+				<p>In this project, it was important to deliver information in a simplified, visual way, so keeping up with the dialogue was easy, while at the same time creating a story.
 				</p>
 			</article>
 			
 			<article>
 				<h2>Solution</h2>
-				<p>I lydklippet er det fire personer som snakker sammen og hver person har fått sin egen visuelle identitet som gjorde det lettere å gjenkjenne hvem som prater. Den visuelle identiteten til hver person gir dem en egen personlighet som skaper interesse og spenning som driver lydklippet fremover og som gjør deg interessert i å følge resten av historien.
+				<p>In the audio clip, there are four people talking together. I gave each person its own visual identity, to make ​​it easier to recognize who is talking. The visual identity of each person gives them a special personality, creating interest and excitement that drives the sound clip forward and makes you want to follow the rest of the story.
 				</p>
 			</article>
 		

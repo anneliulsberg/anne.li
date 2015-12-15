@@ -20,25 +20,27 @@
 			<div id="intro-container">
 				<h1>Kjær Gartneri</h1>
 			
-				<p>Web design for kjær Gartneri</p>
+				<p>Web design for Kjær Gartneri</p>
 			</div>
 		</div>
 		
 		<div id="info-container">
 			<article>
 				<h2>About the project</h2>
-				<p>Dette var et skoleprosjekt for Kjær Gartneri som var interessert i å fornye sin hjemmeside for å fremme å gjøre kjent de økologiske tomatene de dyrker som kan gi dem en nisje i markede som et eksklusivt og high end produkt.
+				<p>This was a school project for Kjær Gartneri who wanted to renew their website to promote the organic tomatoes they grow. A successful design could give them a niche in the market as an exclusive and high end product.
+				
 				</p>
 			</article>
 			
 			<article>
 				<h2>Challenges</h2>
-				<p>Det var viktig for kunden å ha varm og levende følelse i designet som gjenspeilet liv, sollys, naturig og det å jobbe med jorda. Det var en utfording å flette denne tankegangen inn med å få til et design som var mer raffinert og ville tiltrekke seg hign end brukere uten å virke kaldt og upersonlig.</p>
+				<p>It was important for the customer for the design to be warm and vivid, reflecting life, sunlight, nature and working with soil. It was a challenge, though, to merge this thinking into a design that was more refined and would attract high end users without seeming cold and impersonal.
+				</p>
 			</article>
 			
 			<article>
 				<h2>Solution</h2>
-				<p>Designet vi kom frem til var et mer stilrent men varmt design. Med farger fra tomatene og jorda. En stor del av designet er å bruke mange bilder for å få formidlet budskapet til Kjær Gartneri som er kjærlige økologiske tomater som smaker helt utsøkt.
+				<p>The solution we developed was a stylish, but warm design, with the colors of tomatoes and soil. A large part of the design was to use lots of pictures to convey Kjær gartneri’s message of tender, organic tomatoes that taste absolutely delicious.
 				</p>
 			</article>
 			

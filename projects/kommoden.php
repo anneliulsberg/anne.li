@@ -20,26 +20,30 @@
 			<div id="intro-container">
 				<h1>Kommoden med det rare i</h1>
 			
-				<p>Konsept til ett brettspill for barn som handler om å kle seg ut.</p>
+				<p>Board game concept for children where the goal is to get dressed.</p>
 			</div>
 		</div>
 		
 		<div id="info-container">
 			<article>
 				<h2>About the project</h2>
-				<p>I dette prosjektet skulle jeg utvikle et spillkonsept med en funksjonell prototype som hadde en tilknytning til en app eller webside. Her var det viktig å bruke meg selv som ressurs og erfaringene jeg selv har hatt for å komme frem til et interessant og engasjerende spillkonsept. Jeg utviklet et spillkonsept som er en mix mellom memoryspill og brettspill for barn.
+				<p>For this project I were to develop a game concept with a functional prototype and an associated app or website. I found it important to use my own experiences to come up with an interesting and engaging game concept. I developed a game concept that is a mix between memory games and board games for children.
 				</p>
 			</article>
 			
 			<article>
 				<h2>Challenges</h2>
-				<p>Viktig å gjøre spillkonseptet enkelt å forstå for barn med spennende elementer som gjør det interessant å fortsette å spille. Hvordan formidle spillets gamemechanics uten å bruke for mye tekst som barn mest sannsynlig ikke har lært seg å lese enda. Og det var også viktig å holde fokus på at målgruppa skulle være alle barn, ikke kjønnsbasert og dermed holdes kjønnsnøytral og interessant for både gutter og jenter.
+				<p>It was important to make the game concept easy to understand for children with elements that excite them and make them want to continue playing. How do you convey the game game mechanics to children without using text they most likely haven’t learned to read yet? I wanted the game to be attractive to all children, gender neutral and thus interesting for both boys and girls.
 				</p>
 			</article>
 			
 			<article>
 				<h2>Solution</h2>
-				<p>Brettspillet Kommoden med det rare i er en hybrid mellom memoryspill og brettspill. Oppdraget ditt er å kle deg ut i et tildelt kostyme, bevege deg rundt på brettet for å få mulighet til å trekke et påkledningskort og komme deg først i mål når du er ferdig påkledd. Men pass deg for de røde feltene, de kan sette deg tilbake i spillprossesen. Spillmechanics er formidlet med farger og illustrasjoner slik at det er lett for barn å følge med og forstå hvordan spillet går fremover uten å måtte kunne lese. I websiden kan du lese om spillet, eventuelle nyheter og det er en aktivitetsportal der du kan kle på papirdukken i kostymene som er i spillet. Barna kan da printe ut sine valg og fargelegge disse for hånd. Spillet har utviklingspotensiale med kostymeutvidelsespakker i forskjellige temaer.</p>
+				<p>The board game Kommoden med det rare i is a hybrid between a memory game and a board game. Your mission is to dress up in a costume and move around the board to draw a dress card. The one who is fully clothed first and then reaches the finish line, wins. But watch out for the red fields, they can put you back on the board!</p>
+				
+				<p>The game mechanics is conveyed with colors and illustrations so that it is easy for children to follow and understand without having to read. On the web page you can read about the game, read news and find an activity portal where you can dress the paper doll in costumes that are from the game. Children can then print out clothing of their choice and colorize these by hand. The game has development potential with costume expansion packs in various themes.
+				
+				</p>
 			</article>
 			
 			<a href="/demos/kommoden/">Visit page</a>

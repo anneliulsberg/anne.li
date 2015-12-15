@@ -17,26 +17,29 @@
 		
 		<div id="intro">
 			<div id="intro-container">
-				<h1>World of Warcraft infografikk</h1>
+				<h1>World of Warcraft infographic</h1>
 			
-				<p>Infografikk av min World of Warcraft spilletid og abonnement.</p>
+				<p>My World of Warcraft gametime and money</p>
 			</div>
 		</div>
 		
 		<div id="info-container">
 			<article>
 				<h2>About the project</h2>
-				<p>Dette var et skoleprosjekt hvor målet var å presentere data på en oversiktlig, kontekstuell og relevant måte. Infografikken måtte vise frem dataene på en interessant måte og samtidig være oversiktlig. Vi valgte selv hva slags tema vi ville presentere og valget falt på min World of Warcraft gametime og subscription. </p>
+				<p>This was a school project where the goal was to present data in a clear, contextual and relevant way. The infographic should show off the data in an interesting way, but at the same time be easy to understand and uncluttered. We were to choose what kind of theme we would present and the choice fell on my World of Warcraft game time and subscription. 
+				</p>
 			</article>
 			
 			<article>
 				<h2>Challenges</h2>
-				<p>Siden penger og tidsbruk ikke er så mye data så måtte dette vinkles opp mot noe som ga det mer mening. For å gjøre andre interessert i noe så kjedelig som hvor mye jeg har spillt World of Warcraft og hva det det har kostet i tid og penger så var det viktig å få stor kontrast mellom denne dataen og den dataen jeg satt det opp mot. En utfording ble å formidle så mye forskjellig informasjon uten at utrykket ble uoversiktlig.</p>
+				<p>Since money and time spent is not much data, I had to give this an angle that gave it more meaning. To make others interested in something as boring as how much I've played World of Warcraft and what it has cost in time and money, I had to square the data with something that was a huge contrast. A challenge was to convey so much different information without making the message unclear or the design cluttered.
+				</p>
 			</article>
 			
 			<article>
 				<h2>Solution</h2>
-				<p>SFor å få et enhetlig utrykk på mye forskjellig informasjon ble designet lagt opp til å bruke en hovedfarge, med flere nyanser av denne fargen. For å World of Warcraft logoen til å henge sammen med resten av designet så ble designfargene bestemt ut i fra denne logoen. Dette fungerte flott med at blå dominerte designet med en piff av komplimenterfargen oransje. For at informasjonen skulle bli fortalt uniformt og helhetlig så illustrerte jeg alle informasjonsikonene selv. Alt dette sammen klarte å da å formidle all dataen på en interessant og oversiktlig måte.</p>
+				<p>To get a unified expression of a variety of information, the design uses a main color, in several different shades. For the World of Warcraft logo to integrate with the rest of the design, the design colors were derived from the logo. This worked great with the blue dominated designed with a flair of the complementary color orange. For the information to be told uniformly and comprehensively, I designed all icons myself. Combined, I think this conveyed the data in an interesting and clear manner.
+				</p>
 			</article>
 			
 		</div>
