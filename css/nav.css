@@ -41,7 +41,7 @@ nav ul li a:before {
 	right: 50%;
 	bottom: 0;
 	background: #0091B0;
-	height: 4px;
+	height: 2px;
 	-webkit-transition-property: left, right;
 	transition-property: left, right;
 	-webkit-transition-duration: 0.3s;
