@@ -1,3 +1,5 @@
+<?php include_once("googleanalytics.php") ?>
+
 <nav>
 	<label for="menu-toggle"></label>  
 	<input type="checkbox" id="menu-toggle"/>
