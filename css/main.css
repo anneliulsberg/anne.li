@@ -62,6 +62,12 @@ p {
 	text-align: center;
 }
 
+.content::after {
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
 /* style the groups
 --------------------------------------------- */
 
