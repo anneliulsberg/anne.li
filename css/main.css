@@ -57,7 +57,7 @@ p {
 .content {
 	position: relative;
 	height: auto;
-	margin-bottom: 10%;
+	margin-bottom: 100px;
 	background: rgba(255,255,255, 0.95);
 	text-align: center;
 }
