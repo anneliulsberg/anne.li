@@ -35,7 +35,7 @@ p {
 	perspective: 300px;
 }
 
-.parallax__group {
+.parallax-group {
 	position: relative;
 	height: 500px; /* fallback for older browsers */
 	height: 100vh;
@@ -43,7 +43,6 @@ p {
 	transform-style: preserve-3d;
 }
 
-.parallax__layer {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -79,6 +78,7 @@ p {
 --------------------------------------------- */
 
 /*.debug {
+.layer {
 	position: fixed;
 	top: 0;
 	left: .5em;
@@ -102,7 +102,7 @@ p {
 }*/
 
 /* centre the content in the parallax layers */
-.title {
+.content {
 	text-align: center;
 	position: absolute;
 /*	left: 50%;
@@ -118,93 +118,93 @@ p {
 /* style the groups
 --------------------------------------------- */
 
-#group1 {
+#about {
 	z-index: 5; /* slide over group 2 */
 }
 
-#group1 .title {
+#about .content {
 	background: rgba(255,255,255, 0.97)
 	
 }
 
-#group1 #content {
+#about #content {
 	width: 55%;	
 	margin: 0 auto;
 	padding: 100px;
 }
 
-/*#group1 .parallax__layer--base {
+/*#about .parallax__layer--base {
 	background: rgba(255,255,255, 0.97);
 }*/
-#group1 h1,
-#group1 h2 {
+#about h1,
+#about h2 {
 	text-align: left;
 	font-weight: 900;
 	color: #434343;
 }
 
-#group1 h1 {
+#about h1 {
 	font-size: 130px;
 }
 
-#group1 h2 {
+#about h2 {
 	font-size: 80px;
 	margin-bottom: 20px;
 }
 
-#group1 p {
+#about p {
 	text-align: left;
 	font-size: 20px;
 	color: #434343;
 	margin-bottom: 10px;
 }
 
-#group2 {
+#slogan {
 	z-index: 3; /* slide under groups 1 and 3 */
 	height: 60vh;
 }
 
-#group2 .parallax__layer--base .title {
+#slogan .content {
 	background: rgba(255,255,255, 0.97)
 }
 
-#group2 h3 {
+#slogan h3 {
 	color: #434343;
 	font-size: 60px;
 	font-weight: 300;
 	margin: 0 auto;
 }
 
-#group3 {
+#portfolio {
 	z-index: 4; /* slide over group 2 and 4 */
 }
 
-#group3 .parallax__layer--base .title {
+#portfolio .content {
 	background: rgba(255,255,255, 0.97)
 }
 
-#group3 h4 {
+#portfolio h4 {
 	font-size: 60px;
 	font-weight: 900;
 	color: #434343;
 	margin-bottom: 30px;
 }
 
-#group3 p {
+#portfolio p {
 	color: #434343;
 	font-weight: 300;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
-#group3 ul li {
+#portfolio ul li {
 	position: relative;
 	float: left;
 	width: 20%;
 	padding-bottom: 20%;
 }
 
-#group3 ul li a {
+#portfolio ul li a {
 	color: #fff;
 	left: 2px;
 	right: 2px;
@@ -219,14 +219,14 @@ p {
 	background-repeat: no-repeat;
 }
 
-#group3 .projects a span {
+#portfolio .projects a span {
 	display: none;
 	font-size: 20px;
 	font-weight: 900;
 	letter-spacing: 1px;
 }
 
-#group3 .projects a:hover span {
+#portfolio .projects a:hover span {
 	display: block;
 	position: absolute;
 	top: 120px;
@@ -235,11 +235,11 @@ p {
 	text-align: center;
 } 
 
-#group3 .projects a:hover {
+#portfolio .projects a:hover {
 	background-size: 110%;
 }
 
-#group3 .projects a:hover::before {
+#portfolio .projects a:hover::before {
 	display: block;
 	content: ' ';
 	background-color: rgba(0, 0, 0, 0.5);
@@ -249,47 +249,47 @@ p {
 	z-index: 1;
 }
 
-#group3 li:nth-child(1) a {
+#portfolio li:nth-child(1) a {
 	background-image: url(../images/oppen.jpg);
 }
 
-#group3 li:nth-child(2) a {
+#portfolio li:nth-child(2) a {
 	background-image: url(../images/mikroaktiv.jpg);
 }
 
-#group3 li:nth-child(3) a {
+#portfolio li:nth-child(3) a {
 	background-image: url(../images/florian.jpg);
 }
 
-#group3 li:nth-child(4) a {
+#portfolio li:nth-child(4) a {
 	background-image: url(../images/kt-despicable.jpg);
 }
 
-#group3 li:nth-child(5) a {
+#portfolio li:nth-child(5) a {
 	background-image: url(../images/kommoden.jpg);
 }
 
-#group3 li:nth-child(6) a {
+#portfolio li:nth-child(6) a {
 	background-image: url(../images/16dager.jpg);
 }
 
-#group3 li:nth-child(7) a {
+#portfolio li:nth-child(7) a {
 	background-image: url(../images/wow-ig.jpg);
 }
 
-#group3 li:nth-child(8) a {
+#portfolio li:nth-child(8) a {
 	background-image: url(../images/go.jpg);
 }
 
-#group3 li:nth-child(9) a {
+#portfolio li:nth-child(9) a {
 	background-image: url(../images/yenga.jpg);
 }
 
-#group3 li:nth-child(10) a {
+#portfolio li:nth-child(10) a {
 	background-image: url(../images/kjaer.png);
 }
 
-#group3 p {
+#portfolio p {
 	margin-bottom: 60px;
 	font-size: 20px;
 }
@@ -308,95 +308,95 @@ p {
 	margin-left: -50px;
 }
 
-#group5 {
+#tools {
 	z-index: 3; /* slide over group 4 and 6 */
 }
 
-#group5 p {
+#tools p {
 	margin-bottom: 40px;
 	font-size: 20px;
 }
 
-#group5 .parallax__layer--base .title {
+#tools .parallax__layer--base .content {
 	background: rgba(255,255,255, 0.97);
 }
 
-#group5 ul li {
+#tools ul li {
 	display: inline-block;
 	height: 100px;
 	margin: 20px 20px;
 }
 
-#group5 span {
+#tools span {
 	display: none;
 }
 
-#group5 li:nth-child(1) {
+#tools li:nth-child(1) {
 	background-image: url(../images/ps.png);
 	background-repeat: no-repeat;
 	width: 100px;
 }
 
-#group5 li:nth-child(2) {
+#tools li:nth-child(2) {
 	background-image: url(../images/ai.png);
 	background-repeat: no-repeat;
 	width: 100px;
 }
 
-#group5 li:nth-child(3) {
+#tools li:nth-child(3) {
 	background-image: url(../images/ae.png);
 	background-repeat: no-repeat;
 	width: 100px;
 }
 
-#group5 li:nth-child(4) {
+#tools li:nth-child(4) {
 	background-image: url(../images/espresso-icon.png);
 	background-repeat: no-repeat;
 	width: 95px;
 }
 
-#group5 li:nth-child(5) {
+#tools li:nth-child(5) {
 	background-image: url(../images/octocat.png);
 	background-repeat: no-repeat;
 	width: 117px;
 }
 
-#group5 li:nth-child(6) {
+#tools li:nth-child(6) {
 	background-image: url(../images/wacom.png);
 	background-repeat: no-repeat;
 	width: 105px;
 }
 
-#group6 {
+#contact {
 	z-index: 2; /* slide under group 5 and 7 */
 }
 
-#group6 .parallax__layer--base {
+#contact .parallax__layer--base {
 	background-color: #434343;
 	color: #fff;
 }
 
-#group6 #footer-content {
+#contact #footer-content {
 	width: 50%;
 	margin: 0 auto;
 	padding-top: 145px;
 }
 
-#group6 h3 {
+#contact h3 {
 	color: #fff;
 }
 
-#group6 p {
+#contact p {
 	margin-bottom: 60px;
 	font-size: 20px;
 }
 
-#group6 ul li {
+#contact ul li {
 	display: inline-block;
 	text-align: center;
 }
 
-#group6 ul li a {
+#contact ul li a {
 	display: block;
 	text-decoration: none;
 	color: #fff;
@@ -407,64 +407,64 @@ p {
 	background-repeat: no-repeat;
 }
 
-#group6 li:nth-child(1) a {
+#contact li:nth-child(1) a {
 	background-image: url(../images/in.png);
 	width: 111px;
 }
 
-#group6 li:nth-child(2) a {
+#contact li:nth-child(2) a {
 	background-image: url(../images/fb-white-100.png);
 	width: 100px;
 }
 
-#group6 li:nth-child(3) a {
+#contact li:nth-child(3) a {
 	background-image: url(../images/mail.png);
 	width: 156px;
 }
 
-#group6 li:nth-child(4) a {
+#contact li:nth-child(4) a {
 	background-image: url(../images/github.png);
 	width: 103px;
 }
 
-#group6 li:nth-child(5) a {
+#contact li:nth-child(5) a {
 	background-image: url(../images/twitter.png);
 	width: 123px;
 	margin-right: 0;
 }
 
-#group6 li a:hover {
+#contact li a:hover {
 	-webkit-transition: background 200ms ease-in 100ms; 
 	-moz-transition: background 200ms ease-in 100ms;
 	-o-transition: background 200ms ease-in 100ms;
 	transition: background 200ms ease-in 100ms;
 }
 
-#group6 li:nth-child(1) a:hover {
+#contact li:nth-child(1) a:hover {
 	background-image: url(../images/in-h.png);
 	width: 111px;
 }
 
-#group6 li:nth-child(2) a:hover {
+#contact li:nth-child(2) a:hover {
 	background-image: url(../images/fb-white-100-h.png);
 	width: 100px;
 }
 
-#group6 li:nth-child(3) a:hover {
+#contact li:nth-child(3) a:hover {
 	background-image: url(../images/mail-h.png);
 	width: 156px;
 }
 
-#group6 li:nth-child(4) a:hover {
+#contact li:nth-child(4) a:hover {
 	background-image: url(../images/github-h.png);
 	width: 103px;
 }
 
-#group6 li:nth-child(5) a:hover {
+#contact li:nth-child(5) a:hover {
 	background-image: url(../images/twitter-h.png);
 }
 
-#group6 ul li a span {
+#contact ul li a span {
 	display: none;
 }
 
