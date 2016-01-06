@@ -44,6 +44,13 @@ p {
 
 .layer {
 	position: fixed;
+	width: 100%;
+	min-height: 1000vh;
+	background-image: url(../images/illustration-bg-grey.png);
+	background-size: 100%;
+	background-repeat: repeat-y;
+	-webkit-transform: translateZ(-12px) scale(13);
+	transform: translateZ(-12px) scale(13);
 }
 
 /* centre the content in the parallax layers */
@@ -237,20 +244,6 @@ p {
 #portfolio p {
 	margin-bottom: 60px;
 	font-size: 20px;
-}
-
-#group4 {
-	z-index: 2; /* slide under group 3 and 5 */
-	height: 50vh;
-}
-
-#group4 .parallax__layer--deep {
-	background-color: #ecedee;
-	background-image: url(../images/illustration-bg-grey.png);
-	background-size: 100%;
-	background-repeat: repeat-y;
-	margin-top: -1540px;
-	margin-left: -50px;
 }
 
 #tools {
