@@ -29,9 +29,9 @@ p {
 	height: 500px; /* fallback for older browsers */
 	height: 100vh;
 	overflow-x: hidden;
-	overflow-y: auto;
-	-webkit-perspective: 300px;
-	perspective: 300px;
+	overflow-y: scroll;
+	-webkit-perspective: 1px;
+	perspective: 1px;
 }
 
 .parallax-group {
