@@ -80,9 +80,6 @@ p {
 	padding: 100px;
 }
 
-/*#about .parallax__layer--base {
-	background: rgba(255,255,255, 0.97);
-}*/
 #about h1,
 #about h2 {
 	text-align: left;
@@ -239,10 +236,6 @@ p {
 #tools p {
 	margin-bottom: 40px;
 	font-size: 20px;
-}
-
-#tools .parallax__layer--base .content {
-	background: rgba(255,255,255, 0.97);
 }
 
 #tools ul li {
