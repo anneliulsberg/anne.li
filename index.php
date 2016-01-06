@@ -17,10 +17,12 @@
 			</div>	
 		
 		<div class="content" id="about">
-			<h1>Anneli</h1>
-			<h2>Interaction designer</h2>
-			<p>I am a creative person who enjoys to unfold my creativity either digitally or hands on with paint, brushes and canvas.</p>
-			<p>I espessially like to use my creativity to make beautiful, userfriendly and interactive web designs.</p>
+			<div id="about-wrapper">	
+				<h1>Anneli</h1>
+				<h2>Interaction designer</h2>
+				<p>I am a creative person who enjoys to unfold my creativity either digitally or hands on with paint, brushes and canvas.</p>
+				<p>I espessially like to use my creativity to make beautiful, userfriendly and interactive web designs.</p>
+			</div>
 		</div>
 
 		
