@@ -67,6 +67,7 @@ p {
 
 #about {
 	z-index: 5; /* slide over group 2 */
+	margin-top: -100vh;
 }
 
 #about .content {
