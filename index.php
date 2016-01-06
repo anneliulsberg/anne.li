@@ -34,7 +34,7 @@
 			<h4>Portfolio</h4>
 			<p>These projects portray my skills in responsive design, CSS, HTML and illustration</p>
 			
-			<ul class="projects">
+			<ul>
 				<li><a href="/projects/oppenfotografi.php"><span>Oppen Fotografi</span></a></li>
 				<li><a href="/projects/mikroaktiv.php"><span>Mikroaktiv</span></a></li>
 				<li><a href="/projects/florian.php"><span>Florian</span></a></li>

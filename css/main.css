@@ -145,14 +145,14 @@ p {
 	background-repeat: no-repeat;
 }
 
-#portfolio .projects a span {
+#portfolio ul a span {
 	display: none;
 	font-size: 20px;
 	font-weight: 900;
 	letter-spacing: 1px;
 }
 
-#portfolio .projects a:hover span {
+#portfolio ul a:hover span {
 	display: block;
 	position: absolute;
 	top: 120px;
@@ -161,11 +161,11 @@ p {
 	text-align: center;
 } 
 
-#portfolio .projects a:hover {
+#portfolio ul a:hover {
 	background-size: 110%;
 }
 
-#portfolio .projects a:hover::before {
+#portfolio ul a:hover::before {
 	display: block;
 	content: ' ';
 	background-color: rgba(0, 0, 0, 0.5);
