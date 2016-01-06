@@ -66,7 +66,6 @@ p {
 --------------------------------------------- */
 
 #about {
-	z-index: 5; /* slide over group 2 */
 	margin-top: -100vh;
 }
 
@@ -108,7 +107,6 @@ p {
 }
 
 #slogan {
-	z-index: 3; /* slide under groups 1 and 3 */
 	height: 60vh;
 }
 
@@ -121,10 +119,6 @@ p {
 	font-size: 60px;
 	font-weight: 300;
 	margin: 0 auto;
-}
-
-#portfolio {
-	z-index: 4; /* slide over group 2 and 4 */
 }
 
 #portfolio .content {
@@ -242,10 +236,6 @@ p {
 	font-size: 20px;
 }
 
-#tools {
-	z-index: 3; /* slide over group 4 and 6 */
-}
-
 #tools p {
 	margin-bottom: 40px;
 	font-size: 20px;
@@ -299,10 +289,6 @@ p {
 	background-image: url(../images/wacom.png);
 	background-repeat: no-repeat;
 	width: 105px;
-}
-
-#contact {
-	z-index: 2; /* slide under group 5 and 7 */
 }
 
 #contact .parallax__layer--base {
