@@ -1,6 +1,5 @@
 @import url("reset.css");
 @import url("nav.css");
-/*I made this webpage by using Pure CSS parallax scroll demo by Keith Clark*/ 
 
 body, html {
 	overflow: hidden;
@@ -54,7 +53,6 @@ p {
 	transform: translateZ(-12px) scale(13);
 }
 
-/* centre the content in the parallax layers */
 .content {
 	position: relative;
 	height: auto;
@@ -69,7 +67,7 @@ p {
 	clear: both;
 }
 
-/* style the groups
+/* style the slides
 --------------------------------------------- */
 
 #about {
