@@ -271,15 +271,14 @@ p {
 	width: 105px;
 }
 
-#contact .parallax__layer--base {
-	background-color: #434343;
-	color: #fff;
+#contact.content {
+	margin-bottom: 0;
 }
 
-#contact #footer-content {
-	width: 50%;
-	margin: 0 auto;
-	padding-top: 145px;
+#contact {
+	background-color: #434343;
+	color: #fff;
+	padding: 100px;
 }
 
 #contact h3 {
