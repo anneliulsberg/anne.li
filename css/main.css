@@ -99,11 +99,7 @@ p {
 }
 
 #slogan {
-	height: 60vh;
-}
-
-#slogan .content {
-	background: rgba(255,255,255, 0.97)
+	padding: 8%;
 }
 
 #slogan h3 {
