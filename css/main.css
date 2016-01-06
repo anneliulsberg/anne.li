@@ -67,17 +67,12 @@ p {
 
 #about {
 	margin-top: -100vh;
+	padding: 8%;
 }
 
-#about .content {
-	background: rgba(255,255,255, 0.97)
-	
-}
-
-#about #content {
-	width: 55%;	
+#about-wrapper {
+	width: 90%;
 	margin: 0 auto;
-	padding: 100px;
 }
 
 #about h1,
