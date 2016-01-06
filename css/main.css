@@ -55,16 +55,11 @@ p {
 
 /* centre the content in the parallax layers */
 .content {
+	position: relative;
+	height: auto;
+	margin-bottom: 10%;
+	background: rgba(255,255,255, 0.95);
 	text-align: center;
-	position: absolute;
-/*	left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);*/
-	left: 0;
-	right: 0;
-	padding: 100px 0;
-	width: 100%;
 }
 
 /* style the groups
