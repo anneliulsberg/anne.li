@@ -6,7 +6,8 @@
 		<title>Anneli - Web and interaction designer</title>
 		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,900' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/main.css" type="text/css" />
-	</head>
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />	
+ 	</head>
 	
 	<body>
 		<?php include 'menu.php'; ?>

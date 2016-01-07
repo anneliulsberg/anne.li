@@ -7,6 +7,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,900' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Economica:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="../css/oppenfotografi.css" type="text/css" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />	
 	</head>
 	
 	<body>
