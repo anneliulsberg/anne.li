@@ -43,7 +43,7 @@
 				<li><a href="/projects/kommoden.php"><span>Kommoden med det rare i</span></a></li>
 				<li><a href="/projects/16dager.php"><span>16 dager med aktivisme</span></a></li>
 				<li><a href="/projects/infographic-wow.php"><span>Infographic - WoW</span></a></li>
-				<li><a href="/projects/go.html"><span>go!</span></a></li>
+				<li><a href="/projects/go.php"><span>go!</span></a></li>
 				<li><a href="/projects/iyengaryoganorge.php"><span>Iyengar yoga Norge</span></a></li>
 				<li><a href="/projects/kgartneri.php"><span>Kjær Gartneri</span></a></li>
 			</ul>
