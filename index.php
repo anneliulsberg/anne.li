@@ -4,6 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Anneli - Web and interaction designer</title>
+		<meta name="description" content="Anneli Ulsberg is a web and interaction designer from Berlevåg, Norway, living in Oslo." />
 		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,900' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/main.css" type="text/css" />
 		<link rel="icon" type="image/x-icon" href="favicon.ico" />	
