@@ -165,7 +165,7 @@ p {
 #portfolio ul a:hover span {
 	display: block;
 	position: absolute;
-	top: 120px;
+	top: 50%;
 	width: 100%;
 	z-index: 2;
 	text-align: center;
