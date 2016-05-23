@@ -382,5 +382,89 @@ p {
 }
 
 
+@media (max-width: 967px) {
+ 
+	#about h1 {
+	    font-size: 100px;
+	}
+ 	
+ 	#about h2 {
+ 	    font-size: 55px;
+ 	}
+ 	
+ 	
+}
+
+@media (max-width: 950px) {
+ 
+	#portfolio ul a span {
+		font-size: 16px;
+	}
+ 
+}
+
+@media (max-width: 693px) {
+ 
+	#slogan h3 {
+	    font-size: 34px;
+	}
+}
+
+@media (max-width: 667px) {
+ 
+	#about h1 {
+	    font-size: 80px;
+	}
+ 	
+ 	#about h2 {
+ 	    font-size: 50px;
+ 	}
+}
+
+@media (max-width: 612px) {
+ 
+	#about h1 {
+	    font-size: 70px;
+	}
+ 	
+ 	#about h2 {
+ 	    font-size: 40px;
+ 	}
+}
+
+@media (max-width: 492px) {
+ 
+	#about h1 {
+	    font-size: 50px;
+	}
+ 	
+ 	#about h2 {
+ 	    font-size: 32px;
+ 	}
+ 	
+ 	#portfolio h4 {
+ 		    font-size: 50px;
+ 		}
+}
 
 
+@media (max-width: 550px) {
+ 
+	#portfolio ul a span {
+		font-size: 14px;
+	}
+ 
+}
+
+
+@media (max-width: 400px) {
+ 
+	#portfolio ul a:hover span {
+		top: 25%;
+	} 
+	 
+	 #portfolio ul a span {
+	 	font-size: 12px;
+	 	font-weight: 400;
+	 }
+}
