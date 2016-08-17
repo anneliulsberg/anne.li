@@ -167,11 +167,25 @@ p {
 	margin-bottom: 30px;
 }
 
+#portfolio h5 {
+	margin-top: 80px;
+	font-size: 30px;
+	font-weight: 900;
+	color: #434343;
+	margin-bottom: 30px;
+}
+
 #portfolio p {
 	color: #434343;
 	font-weight: 300;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+#portfolio ul::after {
+	content: '';
+	display: table;
+	clear: both;
 }
 
 #portfolio ul li {
@@ -264,6 +278,26 @@ p {
 
 #portfolio #main-portfolio li:nth-child(10) a {
 	background-image: url(../images/kjaer.png);
+}
+
+#portfolio #ne-portfolio li:nth-child(1) a {
+	background-image: url(../images/oslo-golfsenter-logo.jpg);
+}
+
+#portfolio #ne-portfolio li:nth-child(2) a {
+	background-image: url(../images/lokalrorleggeren-logo.jpg);
+}
+
+#portfolio #ne-portfolio li:nth-child(3) a {
+	background-image: url(../images/lvvs-logo.jpg);
+}
+
+#portfolio #ne-portfolio li:nth-child(4) a {
+	background-image: url(../images/ungarena-logo.jpg);
+}
+
+#portfolio #ne-portfolio li:nth-child(5) a {
+	background-image: url(../images/tourdegolf.jpg);
 }
 
 #portfolio p {

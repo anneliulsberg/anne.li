@@ -48,6 +48,18 @@
 				<li><a href="/projects/iyengaryoganorge.php"><span>Iyengar yoga Norge</span></a></li>
 				<li><a href="/projects/kgartneri.php"><span>Kjær Gartneri</span></a></li>
 			</ul>
+			
+			<h5>New Element AS</h5>
+			<p class="text-hover">Here is some of the work I did for <a href="http://newelement.no">New Element AS.</a></p>
+			
+			<ul id="ne-portfolio">
+				<li><a href="/projects/oslogolfsenter.php"><span>Oslo Golfsenter</span></a></li>
+				<li><a href="/projects/lokalrorleggeren.php"><span>Lokalrørleggeren</span></a></li>
+				<li><a href="/projects/lvvs.php"><span>Lærum VVS</span></a></li>
+				<li><a href="/projects/ungarena.php"><span>Ung Arena</span></a></li>
+				<li><a href="/projects/tourdegolf.php"><span>Tour de Golf</span></a></li>
+			</ul>
+			
 		</div>
 
 		<div class="content" id="tools">
