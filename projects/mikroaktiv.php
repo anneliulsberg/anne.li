@@ -14,7 +14,7 @@
 		<?php include '../menu.php'; ?>
 
 		<div id="intro-img">
-			<img src="../images/intro-img-mikroaktiv.jpg" alt="" />
+			<img src="../images/intro-img-mikroaktiv.jpg" alt="Crayons and drawing of a house" />
 		</div>
 		
 		<div id="intro">

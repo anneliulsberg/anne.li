@@ -14,7 +14,7 @@
 		<?php include '../menu.php'; ?>
 
 		<div id="intro-img">
-			<img src="../images/intro-img-kgartneri.jpg" alt="" />
+			<img src="../images/intro-img-kgartneri.jpg" alt="The Kjær gartneri logo on a background of tomato plants" />
 		</div>
 		
 		<div id="intro">

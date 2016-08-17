@@ -14,7 +14,7 @@
 		<?php include '../menu.php'; ?>
 		
 		<div id="intro-img">
-			<img src="../images/intro-img-16dager.jpg" alt="" />
+			<img src="../images/intro-img-16dager.jpg" alt="Minimalistic illustration of three women and the campagne logo in background" />
 		</div>
 		
 		<div id="intro">

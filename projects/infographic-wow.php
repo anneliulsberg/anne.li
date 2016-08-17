@@ -13,7 +13,7 @@
 		<?php include '../menu.php'; ?>
 
 		<div id="intro-img">
-			<img src="../images/intro-img-infographic-wow.jpg" alt="" />
+			<img src="../images/intro-img-infographic-wow.jpg" alt="An illustration made of a mash up of the icons used in the infographic" />
 		</div>
 		
 		<div id="intro">

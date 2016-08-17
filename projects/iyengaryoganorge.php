@@ -14,7 +14,7 @@
 		<?php include '../menu.php'; ?>
 
 		<div id="intro-img">
-			<img src="../images/intro-img-iyengaryoga.jpg" alt="" />
+			<img src="../images/intro-img-iyengaryoga.jpg" alt="The Yengar Yoga logo with the flower illustration and stripes in the background" />
 		</div>
 		
 		<div id="intro">

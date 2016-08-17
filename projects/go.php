@@ -13,7 +13,7 @@
 		<?php include '../menu.php'; ?>
 
 		<div id="intro-img">
-			<img src="../images/intro-img-go.jpg" alt="" />
+			<img src="../images/intro-img-go.jpg" alt="The logo for go! on a dark background" />
 		</div>
 		
 		<div id="intro">
@@ -68,12 +68,12 @@
 		</div>
 			
 		<div id="process">
-			<img id="process-img-1" src="../images/prosess-projects-go-hw-1.jpg" alt="Earth illustration" />
-			<img id="process-img-2" src="../images/prosess-projects-go-hw-2.jpg" alt="Vaccine illustration" />
-			<img id="process-img-3" src="../images/prosess-projects-go-hw-3.jpg" alt="Furniture illustration" />
-			<img id="process-img-4" src="../images/prosess-projects-go-iphone-1.jpg" alt="Work illustration" />
-			<img id="process-img-5" src="../images/prosess-projects-go-iphone-2.jpg" alt="Study illustration" />
-			<img id="process-img-6" src="../images/prosess-projects-go-iphone-3.jpg" alt="Learning material illustration" />
+			<img id="process-img-1" src="../images/prosess-projects-go-hw-1.jpg" alt="Log in screen on go! device" />
+			<img id="process-img-2" src="../images/prosess-projects-go-hw-2.jpg" alt="Home screen on go! device" />
+			<img id="process-img-3" src="../images/prosess-projects-go-hw-3.jpg" alt="Make event screen on go! device" />
+			<img id="process-img-4" src="../images/prosess-projects-go-iphone-1.jpg" alt="Home screen on iPhone" />
+			<img id="process-img-5" src="../images/prosess-projects-go-iphone-2.jpg" alt="Map screen for events on iPhone" />
+			<img id="process-img-6" src="../images/prosess-projects-go-iphone-3.jpg" alt="Make event screen on iPhone" />
 		</div>
 	</body>
 

@@ -14,7 +14,7 @@
 		<?php include '../menu.php'; ?>
 
 		<div id="intro-img">
-			<img src="../images/intro-img-kommoden.jpg" alt="" />
+			<img src="../images/intro-img-kommoden.jpg" alt="The paper doll with dress up cards" />
 		</div>
 		
 		<div id="intro">
