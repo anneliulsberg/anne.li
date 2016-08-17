@@ -226,43 +226,43 @@ p {
 	z-index: 1;
 }
 
-#portfolio li:nth-child(1) a {
+#portfolio #main-portfolio li:nth-child(1) a {
 	background-image: url(../images/oppen.jpg);
 }
 
-#portfolio li:nth-child(2) a {
+#portfolio #main-portfolio li:nth-child(2) a {
 	background-image: url(../images/mikroaktiv.jpg);
 }
 
-#portfolio li:nth-child(3) a {
+#portfolio #main-portfolio li:nth-child(3) a {
 	background-image: url(../images/florian.jpg);
 }
 
-#portfolio li:nth-child(4) a {
+#portfolio #main-portfolio li:nth-child(4) a {
 	background-image: url(../images/kt-despicable.jpg);
 }
 
-#portfolio li:nth-child(5) a {
+#portfolio #main-portfolio li:nth-child(5) a {
 	background-image: url(../images/kommoden.jpg);
 }
 
-#portfolio li:nth-child(6) a {
+#portfolio #main-portfolio li:nth-child(6) a {
 	background-image: url(../images/16dager.jpg);
 }
 
-#portfolio li:nth-child(7) a {
+#portfolio #main-portfolio li:nth-child(7) a {
 	background-image: url(../images/wow-ig.jpg);
 }
 
-#portfolio li:nth-child(8) a {
+#portfolio #main-portfolio li:nth-child(8) a {
 	background-image: url(../images/go.jpg);
 }
 
-#portfolio li:nth-child(9) a {
+#portfolio #main-portfolio li:nth-child(9) a {
 	background-image: url(../images/yenga.jpg);
 }
 
-#portfolio li:nth-child(10) a {
+#portfolio #main-portfolio li:nth-child(10) a {
 	background-image: url(../images/kjaer.png);
 }
 
