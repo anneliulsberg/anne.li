@@ -433,34 +433,32 @@ p {
  	    font-size: 55px;
  	}
  	
- 	
+ 	#portfolio ul a span {
+ 		font-size: 16px;
+ 	}
 }
 
-@media (max-width: 950px) {
- 
-	#portfolio ul a span {
-		font-size: 16px;
-	}
- 
-}
 
-@media (max-width: 693px) {
- 
-	#slogan h3 {
-	    font-size: 34px;
-	}
-}
-
-@media (max-width: 667px) {
+@media (max-width: 750px) {
  
 	#about h1 {
 	    font-size: 80px;
 	}
- 	
- 	#about h2 {
- 	    font-size: 50px;
- 	}
+		
+	#about h2 {
+	    font-size: 50px;
+	}
+	
+	#portfolio ul li {
+		width: 50%;
+		padding-bottom: 50%;
+	}
+		
+	#portfolio ul a span {
+		font-size: 20px;
+	}
 }
+
 
 @media (max-width: 612px) {
  
@@ -471,6 +469,16 @@ p {
  	#about h2 {
  	    font-size: 40px;
  	}
+ 	
+ 	#portfolio ul li {
+ 		width: 100%;
+		padding-bottom: 100%;
+ 	}
+ 	
+ 	#portfolio ul a span {
+ 	    font-size: 20px;
+ 	}
+ 	
 }
 
 @media (max-width: 492px) {
@@ -484,28 +492,6 @@ p {
  	}
  	
  	#portfolio h4 {
- 		    font-size: 50px;
- 		}
-}
-
-
-@media (max-width: 550px) {
- 
-	#portfolio ul a span {
-		font-size: 14px;
-	}
- 
-}
-
-
-@media (max-width: 400px) {
- 
-	#portfolio ul a:hover span {
-		top: 25%;
-	} 
-	 
-	 #portfolio ul a span {
-	 	font-size: 12px;
-	 	font-weight: 400;
-	 }
+ 		font-size: 50px;
+ 	} 
 }
