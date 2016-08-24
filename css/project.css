@@ -54,7 +54,7 @@ body {
 	line-height: 1.2em;
 }
 
-#info-container a {
+#info-container a#project-link {
 	padding-right: 25px;
 	margin-left: 20px;
 	color: #000;
@@ -65,7 +65,7 @@ body {
 	background-position: 80px;
 }
 
-#info-container a:hover {
+#info-container a#project-link:hover {
 	background-position: 85px;
 	-webkit-transition: background 100ms ease-in-out; 
 	-moz-transition: background 100ms ease-in-out;
