@@ -42,7 +42,7 @@
 				</p>
 			</article>
 			
-			<a href="http://mikroaktiv.no">Visit page</a>
+			<a id="project-link" href="http://mikroaktiv.no">Visit page</a>
 		</div>
 		
 		<div id="showcase-img">

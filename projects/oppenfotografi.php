@@ -41,7 +41,7 @@
 				<p>For å skape et interessant men stilrent design ble det brukt farger der ikke bildene skulle være i fokus. Det ble laget et slideshow med snarveier til hver enkelt portefølje kategori for kjapp og enkel manøvrere til ønsket kategori. Bildenes thumbnails i porteføljen er store og beholder størrelsen sin uansett hvilken device du bruker for å se websiden på. Dette gjør det også lettere å navigere rundt på siden ved bruk av smarttelefoner og tablets. I designfordypningen hadde jeg flere interaktive løsninger som foreløpig ikke er tatt med i dagens utgave av websiden men som det er planer for skal legges til i fremtiden. Disse forslagene kan du se i demo videoen som er laget av fordypningdesignet fra skoleprosjektet.</p>
 			</article>
 			
-			<a href="http://oppenphotography.com/">Visit page</a>
+			<a id="project-link" href="http://oppenphotography.com/">Visit page</a>
 		</div>
 		
 		<div id="showcase-img">

@@ -44,7 +44,7 @@
 				</p>
 			</article>
 		
-			<a href="/demos/kinetic-typography/">Visit page</a>
+			<a id="project-link" href="/demos/kinetic-typography/">Visit page</a>
 		</div>
 		
 		<div id="showcase-img">

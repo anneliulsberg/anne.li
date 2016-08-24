@@ -42,7 +42,7 @@
 				</p>
 			</article>
 			
-			<a href="/demos/florian/">Visit page</a>
+			<a id="project-link" href="/demos/florian/">Visit page</a>
 		</div>
 		
 		<div id="showcase-img">

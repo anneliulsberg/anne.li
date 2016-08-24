@@ -46,7 +46,7 @@
 				<p>You could also order a purple ribbon to wear during the campaign period, for free. Other options were to put purple ribbon on your profile picture on Facebook or enroll in the torchlight procession that would end the campaign. The design would provide a recognizable and strong campaign profile. We wanted to establish the purple loop as a token that clearly associates with this campaign in the same way that the pink loop is associated with the fight against breast cancer. The language of the campaign was written in a way to make people feel that they would join a huge movement that already included many of their friends, families and followers.</p>
 			</article>
 			
-			<a href="/demos/16dager/">Visit page</a>
+			<a id="project-link" href="/demos/16dager/">Visit page</a>
 		</div>
 		
 		<div id="showcase-img">

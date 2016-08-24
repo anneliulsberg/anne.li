@@ -47,7 +47,7 @@
 				</p>
 			</article>
 			
-			<a href="/demos/kommoden/">Visit page</a>
+			<a id="project-link" href="/demos/kommoden/">Visit page</a>
 		</div>
 		
 		<div id="showcase-img">
