@@ -199,3 +199,75 @@ body {
 	float: left;
 	width: 33.33%;
 }
+
+@media (max-width: 1199px) {
+ 	
+ 	#process img {
+ 		width: 50%;
+ 	}
+ 	
+ 	#project-font {
+ 		width: 50%;
+ 	}
+ 	
+ 	#project-logo {
+ 		width: 50%;
+ 		left: 50%;
+ 	}
+ 	
+ 	#color-profile {
+ 		width: 100%;
+ 		position: relative;
+ 		left: 0;
+ 	}
+ 	
+}
+
+@media (max-width: 749px) {
+
+	#info-container article {
+	    width: 100%;
+	}
+
+}
+
+@media (max-width: 599px) {
+	
+	#intro h1 {
+		font-size: 40px;
+	}
+	
+ 	
+ 	#process img {
+ 		width: 100%;
+ 	}
+ 	
+ 	#project-font {
+ 		width: 100%;
+ 	}
+ 		
+ 	#project-logo {
+ 		width: 100%;
+ 		left: 0;
+ 		top: 255px;
+ 	}
+ 	
+ 	#color-profile {
+ 		width: 100%;
+ 		position: relative;
+		left: 0;
+ 		top: 255px;
+ 	}
+ 	
+ 	#process {
+ 		margin-top: 255px;
+ 	}
+ 	
+ 	#process-big {
+ 		margin-top: 255px; 		
+ 	}
+ 	
+ 	#project-video-wrapper {
+ 	    margin-top: 255px;
+ 	} 
+}
