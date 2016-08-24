@@ -194,6 +194,11 @@ body {
 	width: 100%;
 }
 
+#process-big-2 {
+	display: block;
+	width: 100%;
+}
+
 #process img {
 	display: block;
 	float: left;
