@@ -1,4 +1,15 @@
 RewriteEngine On
 RewriteBase /
+
+# Redirect www.anne.li to anne.li
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+# Redirect *.php to *
+RewriteCond %{THE_REQUEST} ^(.*)\.php$ [NC]
+RewriteRule ^ %1 [R=302,L]
+
+# Rewrite * to *.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ $1.php [L]
