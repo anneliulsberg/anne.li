@@ -37,27 +37,27 @@
 			<p>These projects portray my skills in responsive design, CSS, HTML and illustration</p>
 			
 			<ul id="main-portfolio">
-				<li><a href="/projects/oppenfotografi.php"><span>Oppen Fotografi</span></a></li>
-				<li><a href="/projects/mikroaktiv.php"><span>Mikroaktiv</span></a></li>
-				<li><a href="/projects/florian.php"><span>Florian</span></a></li>
-				<li><a href="/projects/kinetic.php"><span>Kinetic typography</span></a></li>
-				<li><a href="/projects/kommoden.php"><span>Kommoden med det rare i</span></a></li>
-				<li><a href="/projects/16dager.php"><span>16 dager med aktivisme</span></a></li>
-				<li><a href="/projects/infographic-wow.php"><span>Infographic - WoW</span></a></li>
-				<li><a href="/projects/go.php"><span>go!</span></a></li>
-				<li><a href="/projects/iyengaryoganorge.php"><span>Iyengar yoga Norge</span></a></li>
-				<li><a href="/projects/kgartneri.php"><span>Kjær Gartneri</span></a></li>
+				<li><a href="/projects/oppenfotografi"><span>Oppen Fotografi</span></a></li>
+				<li><a href="/projects/mikroaktiv"><span>Mikroaktiv</span></a></li>
+				<li><a href="/projects/florian"><span>Florian</span></a></li>
+				<li><a href="/projects/kinetic"><span>Kinetic typography</span></a></li>
+				<li><a href="/projects/kommoden"><span>Kommoden med det rare i</span></a></li>
+				<li><a href="/projects/16dager"><span>16 dager med aktivisme</span></a></li>
+				<li><a href="/projects/infographic-wow"><span>Infographic - WoW</span></a></li>
+				<li><a href="/projects/go"><span>go!</span></a></li>
+				<li><a href="/projects/iyengaryoganorge"><span>Iyengar yoga Norge</span></a></li>
+				<li><a href="/projects/kgartneri"><span>Kjær Gartneri</span></a></li>
 			</ul>
 			
 			<h5>New Element AS</h5>
 			<p class="text-hover">Here is some of the work I did for <a href="http://newelement.no">New Element AS.</a></p>
 			
 			<ul id="ne-portfolio">
-				<li><a href="/projects/oslogolfsenter.php"><span>Oslo Golfsenter</span></a></li>
-				<li><a href="/projects/lokalrorleggeren.php"><span>Lokalrørleggeren</span></a></li>
-				<li><a href="/projects/lvvs.php"><span>Lærum VVS</span></a></li>
-				<li><a href="/projects/ungarena.php"><span>Ung Arena</span></a></li>
-				<li><a href="/projects/tourdegolf.php"><span>Tour de Golf</span></a></li>
+				<li><a href="/projects/oslogolfsenter"><span>Oslo Golfsenter</span></a></li>
+				<li><a href="/projects/lokalrorleggeren"><span>Lokalrørleggeren</span></a></li>
+				<li><a href="/projects/lvvs"><span>Lærum VVS</span></a></li>
+				<li><a href="/projects/ungarena"><span>Ung Arena</span></a></li>
+				<li><a href="/projects/tourdegolf"><span>Tour de Golf</span></a></li>
 			</ul>
 			
 		</div>
