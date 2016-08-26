@@ -468,7 +468,12 @@ p {
  	}
  	
  	#portfolio ul a span {
- 		font-size: 16px;
+ 		font-size: 20px;
+ 	}
+ 	
+ 	#portfolio ul li {
+ 		width: 50%;
+ 		padding-bottom: 50%;
  	}
 }
 
@@ -483,14 +488,6 @@ p {
 	    font-size: 50px;
 	}
 	
-	#portfolio ul li {
-		width: 50%;
-		padding-bottom: 50%;
-	}
-		
-	#portfolio ul a span {
-		font-size: 20px;
-	}
 }
 
 
