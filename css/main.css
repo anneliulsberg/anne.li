@@ -56,7 +56,6 @@ p {
 .content {
 	position: relative;
 	height: auto;
-	margin-bottom: 300px;
 	background: rgba(255,255,255, 0.95);
 	text-align: center;
 }
@@ -109,6 +108,14 @@ p {
 	-moz-transition: color 200ms ease-in 100ms;
 	-o-transition: color 200ms ease-in 100ms;
 	transition: color 200ms ease-in 100ms;
+}
+
+br.space {
+	position: relative;
+	content: ' ';
+	height: 300px;
+	display: block;
+	background-color: rgba(000, 000, 000, .01);
 }
 
 #about {

@@ -26,11 +26,14 @@
 				<p>I espessially like to use my creativity to make beautiful, userfriendly and interactive web designs.</p>
 			</div>
 		</div>
-
+		
+		<br class="space" />
 		
 		<div class="content" id="slogan">
 			<h3>Creativity is my game</h3>
 		</div>
+		
+		<br class="space" />
 		
 		<div class="content" id="portfolio">
 			<h4>Portfolio</h4>
@@ -61,6 +64,8 @@
 			</ul>
 			
 		</div>
+		
+		<br class="space" />
 
 		<div class="content" id="tools">
 	    	<h3>Tools</h3>
@@ -74,6 +79,8 @@
 	    		<li><span>Wacom Bamboo</span></li>
 	    	</ul>   
 		</div>
+		
+		<br class="space" />
 		
 		<div class="content" id="contact">
 			<h3>Contact</h3>
