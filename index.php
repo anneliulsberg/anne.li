@@ -12,19 +12,75 @@
 	
 	<body>
 		<?php include 'menu.php'; ?>
-
-		<div class="parallax">
-			<div class="parallax-group">
-				<div class="layer"></div>
-			</div>	
 		
+		<div class="content" id="intro">
+		
+			<div id="portrait" class="card effect__click">
+			 	<div class="card__front">
+					<a class="card__text hover-cards">front</a>
+			 	</div>
+			 	<div class="card__back">
+					<span class="card__text">back</span>
+			 	</div>
+			</div>
+			
+			<div id="quote" class="card effect__click">
+			 	<div class="card__front">
+					<a class="card__text hover-cards">front</a>
+			 	</div>
+			 	<div class="card__back">
+					<span class="card__text">“Good artists copy. Great artists steal. - Pablo Picasso”</span>
+			 	</div>
+			</div>
+			
+			<div class="card effect__click">
+			 	<div class="card__front">
+					<a class="card__text hover-cards">front</a>
+			 	</div>
+			 	<div class="card__back">
+					<span class="card__text">back</span>
+			 	</div>
+			</div>
+			
+			<div class="card effect__click">
+			 	<div class="card__front">
+					<a class="card__text hover-cards">front</a>
+			 	</div>
+			 	<div class="card__back">
+					<span class="card__text">back</span>
+			 	</div>
+			</div>
+			
+			<div class="card effect__click">
+			 	<div class="card__front">
+					<a class="card__text hover-cards">front</a>
+			 	</div>
+			 	<div class="card__back">
+					<span class="card__text">back</span>
+			 	</div>
+			</div>
+			
+			<div class="card effect__click">
+			 	<div class="card__front">
+					<a class="card__text hover-cards">front</a>
+			 	</div>
+			 	<div class="card__back">
+					<span class="card__text">back</span>
+			 	</div>
+			</div>
+			
+		</div>
+			
 		<div class="content" id="about">
 			<div id="about-wrapper">	
 				<h1>Anneli</h1>
 				<h2>Interaction designer</h2>
 				<p>I am a creative person who enjoys to unfold my creativity either digitally or hands on with paint, brushes and canvas.</p>
 				<p>I espessially like to use my creativity to make beautiful, userfriendly and interactive web designs.</p>
+				
+					
 			</div>
+		</div>
 		</div>
 
 		
@@ -87,6 +143,9 @@
 			</ul>	     
 		</div>
 	</div>  	
+	
+	<script src="js/main.js" type="text/javascript"></script>
+	
 		
 	</body>
 </html>

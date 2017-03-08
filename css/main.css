@@ -1,11 +1,6 @@
 @import url("reset.css");
 @import url("nav.css");
 
-body, html {
-	overflow: hidden;
-	background-color: #ecedee;
-}
-
 body {
 	font-family: 'Roboto', Helvetica, sans-serif;
 }
@@ -23,49 +18,64 @@ p {
 	padding-right: 10px;
 }
 
-/* Parallax base styles
---------------------------------------------- */
-.parallax {
-	height: 500px; /* fallback for older browsers */
-	height: 100vh;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	-webkit-perspective: 1px;
-	perspective: 1px;
-}
-
-.parallax-group {
-	position: relative;
-	height: 500px; /* fallback for older browsers */
-	height: 100vh;
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-}
-
-.layer {
-	position: fixed;
-	width: 100%;
-	min-height: 1000vh;
-	background-image: url(../images/illustration-bg-grey.png);
-	background-size: 100%;
-	background-repeat: repeat-y;
-	-webkit-transform: translateZ(-12px) scale(13);
-	transform: translateZ(-12px) scale(13);
-}
-
 .content {
-	position: relative;
 	height: auto;
-	margin-bottom: 300px;
 	background: rgba(255,255,255, 0.95);
 	text-align: center;
 }
 
-.content::after {
-	content: ' ';
-	display: table;
-	clear: both;
+
+/* flip cards */
+
+.card {
+  position: relative;
+  float: left;
+  padding-bottom: 33%;
+  width: 33%;
+  text-align: center;
 }
+
+.card__front,
+.card__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card__front,
+.card__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card__front {
+  background-color: #ff5078;
+}
+
+.card__back {
+  background-color: #1e1e1e;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__click.flipped .card__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__click.flipped .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+.card__front:hover {
+  background-color: blue;
+}
+
 
 /* style the slides
 --------------------------------------------- */
@@ -112,7 +122,6 @@ p {
 }
 
 #about {
-	margin-top: -100vh;
 	padding: 8%;
 }
 
@@ -475,6 +484,11 @@ p {
  		width: 50%;
  		padding-bottom: 50%;
  	}
+ 	
+ 	.card {
+ 	  padding-bottom: 50%;
+ 	  width: 50%;
+ 	}
 }
 
 
@@ -509,6 +523,11 @@ p {
  	#portfolio ul a span {
  	    font-size: 20px;
  	}
+ 	
+ 	.card {
+ 		  padding-bottom: 100%;
+ 		  width: 100%;
+ 		}
  	
 }
 
