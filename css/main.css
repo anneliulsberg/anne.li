@@ -68,7 +68,7 @@ p {
 }
 
 .card__front:hover {
-  background-color: rgba(0, 145, 176, .1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* style the slides
