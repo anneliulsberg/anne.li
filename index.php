@@ -75,10 +75,23 @@
 			 	</div>
 			</div>
 			
-		</div>
-			
+			<div class="card effect__click">
+			 	<div class="card__front">
+					<a class="card__text hover-cards">front</a>
+			 	</div>
+			 	<div class="card__back">
+					<span class="card__text">back</span>
+			 	</div>
 			</div>
-		</div>
+			
+			<div id="last-card" class="card effect__click">
+			 	<div class="card__front">
+					<a class="card__text hover-cards">front</a>
+			 	</div>
+			 	<div class="card__back">
+					<span class="card__text">back</span>
+			 	</div>
+			</div>
 		</div>
 
 		<div class="content" id="slogan-wrapper">
