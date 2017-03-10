@@ -21,8 +21,6 @@ p {
 .content {
 	text-align: center;
 }
-
-
 /* flip cards */
 
 .card {
@@ -55,7 +53,6 @@ p {
 }
 
 .card__back {
-  background-color: #1e1e1e;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
 }
