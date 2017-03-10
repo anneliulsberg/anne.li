@@ -68,7 +68,7 @@ p {
 }
 
 .card__front:hover {
-  background-color: blue;
+  background-color: rgba(0, 145, 176, .1);
 }
 
 
