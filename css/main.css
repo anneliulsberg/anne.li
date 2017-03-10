@@ -102,6 +102,62 @@ p {
 	background-repeat: no-repeat;
 }
 
+#card-2 .card__front {
+	background-color: #0091B0;
+}
+
+#card-2 .card__front:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#card-3 .card__front {
+	background-color: #ffffff;
+}
+
+#card-3 .card__front:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#card-4 .card__front {
+	background-color: #0091B0;
+}
+
+#card-4 .card__front:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#card-5 .card__front {
+	background-color: #0091B0;
+}
+
+#card-5 .card__front:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#card-6 .card__front {
+	background-color: #ffffff;
+}
+
+#card-6 .card__front:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#card-7 .card__front {
+	background-color: #0091B0;
+}
+
+#card-7 .card__front:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#card-8 .card__front {
+	background-color: #ffffff;
+}
+
+#card-8 .card__front:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
 #slogan-wrapper {
 	clear: left;
 }
