@@ -74,6 +74,34 @@ p {
 /* style the slides
 --------------------------------------------- */
 
+#card-1 .card__front {
+	background-color: #ffffff;
+}
+
+#card-1 .card__front h1 {
+	color: #434343;
+	font-size: 61px;
+	font-weight: 900;
+	margin-top: 40%;
+}
+
+#card-1 .card__front h2 {
+	color: #434343;
+	font-size: 21px;
+	font-weight: 100;
+	text-indent: -2px;
+}
+
+#card-1 .card__front:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#card-1 .card__back {
+	background-image: url(../images/me.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 #slogan-wrapper {
 	clear: left;
 }

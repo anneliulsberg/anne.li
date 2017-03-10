@@ -15,7 +15,7 @@
 		
 		<div class="content" id="intro">
 		
-			<div id="portrait" class="card effect__click">
+			<div id="card-1" class="card effect__click">
 			 	<div class="card__front">
 					<a class="card__text hover-cards">
 						<h1>Anneli</h1>
