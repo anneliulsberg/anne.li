@@ -116,39 +116,6 @@ p {
 	transition: color 200ms ease-in 100ms;
 }
 
-#about {
-	padding: 8%;
-}
-
-#about-wrapper {
-	width: 90%;
-	margin: 0 auto;
-	padding: 100px 0;
-}
-
-#about h1,
-#about h2 {
-	text-align: left;
-	font-weight: 900;
-	color: #434343;
-}
-
-#about h1 {
-	font-size: 130px;
-}
-
-#about h2 {
-	font-size: 80px;
-	margin-bottom: 20px;
-}
-
-#about p {
-	text-align: left;
-	font-size: 20px;
-	color: #434343;
-	margin-bottom: 10px;
-}
-
 #slogan {
 	padding: 8%;
 }
@@ -462,14 +429,6 @@ p {
 
 
 @media (max-width: 967px) {
- 
-	#about h1 {
-	    font-size: 100px;
-	}
- 	
- 	#about h2 {
- 	    font-size: 55px;
- 	}
  	
  	#portfolio ul a span {
  		font-size: 20px;
@@ -489,26 +448,12 @@ p {
 
 @media (max-width: 750px) {
  
-	#about h1 {
-	    font-size: 80px;
-	}
-		
-	#about h2 {
-	    font-size: 50px;
-	}
+	
 	
 }
 
 
 @media (max-width: 612px) {
- 
-	#about h1 {
-	    font-size: 70px;
-	}
- 	
- 	#about h2 {
- 	    font-size: 40px;
- 	}
  	
  	#portfolio ul li {
  		width: 100%;
@@ -527,14 +472,6 @@ p {
 }
 
 @media (max-width: 492px) {
- 
-	#about h1 {
-	    font-size: 50px;
-	}
- 	
- 	#about h2 {
- 	    font-size: 32px;
- 	}
  	
  	#portfolio h4 {
  		font-size: 50px;
