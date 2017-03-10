@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="description" content="Anneli Ulsberg is a web and interaction designer from Berlevåg, Norway, living in Oslo." />
 		<title>Anneli Ulsberg - Web and interaction designer</title>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,900' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/main.css" type="text/css" />
 		<link rel="icon" type="image/x-icon" href="favicon.ico" />	
  	</head>
@@ -83,10 +83,11 @@
 		</div>
 		</div>
 
-		
-		<div class="content" id="slogan">
-			<h3>Creativity is my game</h3>
-		</div>
+		<div class="content" id="slogan-wrapper">
+			<div id="slogan">
+				<h1>Creativity is my game</h1>
+			</div>
+		</div>	
 		
 		<div class="content" id="portfolio">
 			<h4>Portfolio</h4>
@@ -115,7 +116,6 @@
 				<li><a href="/projects/ungarena"><span>Ung Arena</span></a></li>
 				<li><a href="/projects/tourdegolf"><span>Tour de Golf</span></a></li>
 			</ul>
-			
 		</div>
 
 		<div class="content" id="tools">
@@ -142,9 +142,8 @@
 				<li><a href="https://twitter.com/litntweet"><span>Twitter</span></a></li>
 			</ul>	     
 		</div>
-	</div>  	
 	
-	<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
 	
 		
 	</body>
