@@ -27,7 +27,7 @@
 			 	</div>
 			</div>
 			
-			<div id="quote" class="card effect__click">
+			<div id="card-2" class="card effect__click">
 			 	<div class="card__front">
 					<a class="card__text hover-cards">front</a>
 			 	</div>
@@ -36,7 +36,7 @@
 			 	</div>
 			</div>
 			
-			<div class="card effect__click">
+			<div id="card-3" class="card effect__click">
 			 	<div class="card__front">
 					<a class="card__text hover-cards">
 						<p>I am a creative person who enjoys to unfold my creativity either digitally or hands on with paint, brushes and canvas.</p>
@@ -48,7 +48,7 @@
 			 	</div>
 			</div>
 			
-			<div class="card effect__click">
+			<div id="card-4" class="card effect__click">
 			 	<div class="card__front">
 					<a class="card__text hover-cards">front</a>
 			 	</div>
@@ -57,7 +57,7 @@
 			 	</div>
 			</div>
 			
-			<div class="card effect__click">
+			<div id="card-5" class="card effect__click">
 			 	<div class="card__front">
 					<a class="card__text hover-cards">front</a>
 			 	</div>
@@ -66,7 +66,7 @@
 			 	</div>
 			</div>
 			
-			<div class="card effect__click">
+			<div id="card-6" class="card effect__click">
 			 	<div class="card__front">
 					<a class="card__text hover-cards">front</a>
 			 	</div>
@@ -75,7 +75,7 @@
 			 	</div>
 			</div>
 			
-			<div class="card effect__click">
+			<div id="card-7" class="card effect__click">
 			 	<div class="card__front">
 					<a class="card__text hover-cards">front</a>
 			 	</div>
@@ -84,7 +84,7 @@
 			 	</div>
 			</div>
 			
-			<div id="last-card" class="card effect__click">
+			<div id="card-8" class="card effect__click">
 			 	<div class="card__front">
 					<a class="card__text hover-cards">front</a>
 			 	</div>
