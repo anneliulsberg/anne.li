@@ -71,7 +71,6 @@ p {
   background-color: rgba(0, 145, 176, .1);
 }
 
-
 /* style the slides
 --------------------------------------------- */
 
@@ -333,10 +332,6 @@ p {
 	background-image: url(../images/wacom.png);
 	background-repeat: no-repeat;
 	width: 105px;
-}
-
-#contact.content {
-	margin-bottom: 0;
 }
 
 #contact {
