@@ -629,6 +629,10 @@ br.space {
 }
 
 @media (max-width: 492px) {
+	
+	#slogan h1 {
+		font-size: 30px;
+	}
  	
  	#portfolio h4 {
  		font-size: 50px;
