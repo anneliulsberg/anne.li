@@ -8,6 +8,13 @@
     font-style: normal;
 }
 
+html {
+	background-image: url(../images/illustration-bg-grey.png);
+	background-size: 100%;
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+}
+
 
 body {
 	font-family: 'Roboto', Helvetica, sans-serif;
