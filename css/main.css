@@ -346,7 +346,7 @@ br.space {
 	position: absolute;
 	transition: all 0.3s;
 	background-size: 101%;
-	background-position: 0px 0px;
+	background-position: 0 0;
 	background-repeat: no-repeat;
 }
 
