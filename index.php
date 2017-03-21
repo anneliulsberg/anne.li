@@ -38,7 +38,7 @@
 					<a class="card__text hover-cards">front</a>
 			 	</div>
 			 	<div class="card__back">
-					<span class="card__text">“Good artists copy. Great artists steal. - Pablo Picasso”</span>
+					<span class="card__text"></span>
 			 	</div>
 			</div>
 			
@@ -65,6 +65,7 @@
 					<a class="card__text hover-cards"></a>
 			 	</div>
 			 	<div class="card__back">
+					<span class="card__text"><p>“Good artists copy. Great artists steal. - Picasso”</p></span>
 			 	</div>
 			</div>
 		</div>
