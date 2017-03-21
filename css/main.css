@@ -141,6 +141,8 @@ br.space {
 	margin-bottom: 10px;
 }
 
+#card-1 .card__front {
+	background-image: url(../images/card-git.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
