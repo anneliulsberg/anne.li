@@ -45,8 +45,7 @@
 			<div id="card-3" class="card effect__click">
 			 	<div class="card__front">
 					<a class="card__text hover-cards">
-						<p>I am a creative person who enjoys to unfold my creativity either digitally or hands on with paint, brushes and canvas.</p>
-						<p>I espessially like to use my creativity to make beautiful, userfriendly and interactive web designs.</p>
+					<span class="card__text"></span>
 					</a>
 			 	</div>
 			 	<div class="card__back">
