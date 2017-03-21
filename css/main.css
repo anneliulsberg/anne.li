@@ -205,8 +205,16 @@ br.space {
 	background-repeat: no-repeat;
 }
 
+#card-3 .card__front {
+	background-image: url(../images/card-ps.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
+#card-3 .card__back {
+	background-image: url(../images/me.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 }
