@@ -35,7 +35,7 @@
 			
 			<div id="card-2" class="card effect__click">
 			 	<div class="card__front">
-					<a class="card__text hover-cards">front</a>
+					<a class="card__text hover-cards"></a>
 			 	</div>
 			 	<div class="card__back">
 					<span class="card__text"></span>
@@ -50,18 +50,12 @@
 					</a>
 			 	</div>
 			 	<div class="card__back">
-					<span class="card__text">back</span>
+					<span class="card__text"></span>
 			 	</div>
 			</div>
 			
 			<div id="card-4" class="card effect__click">
 			 	<div class="card__front">
-					<a class="card__text hover-cards">front</a>
-			 	</div>
-			 	<div class="card__back">
-					<span class="card__text">back</span>
-			 	</div>
-			</div>
 					<a class="card__text hover-cards"></a>
 			 	</div>
 			 	<div class="card__back">
