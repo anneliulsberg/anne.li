@@ -38,6 +38,15 @@ p {
 .content {
 	text-align: center;
 }
+
+br.space {
+	position: relative;
+	content: ' ';
+	height: 300px;
+	display: block;
+	background-color: transparent;
+}
+
 /* flip cards */
 
 .card {
