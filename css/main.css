@@ -124,8 +124,21 @@ br.space {
 	font-size: 150px;
 }
 
+#intro h2 {
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	font-family: serif;
+	font-style: italic;
+	letter-spacing: 1px;
 }
 
+#intro p {
+	font-weight: 300;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
 }
 
 	background-size: 100%;
