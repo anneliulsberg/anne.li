@@ -74,10 +74,6 @@ br.space {
           transition: transform 0.3s;
 }
 
-.card__front {
-  background-color: #ff5078;
-}
-
 .card__back {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
