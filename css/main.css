@@ -126,8 +126,6 @@ br.space {
 
 }
 
-#card-1 .card__front:hover {
-	background-color: rgba(0, 0, 0, 0.1);
 }
 
 #card-1 .card__back {
@@ -140,24 +138,18 @@ br.space {
 	background-color: #0091B0;
 }
 
-#card-2 .card__front:hover {
-	background-color: rgba(0, 0, 0, 0.1);
 }
 
 #card-3 .card__front {
 	background-color: #ffffff;
 }
 
-#card-3 .card__front:hover {
-	background-color: rgba(0, 0, 0, 0.1);
 }
 
 #card-4 .card__front {
 	background-color: #0091B0;
 }
 
-#card-4 .card__front:hover {
-	background-color: rgba(0, 0, 0, 0.1);
 }
 
 #card-5 .card__front {
