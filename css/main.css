@@ -403,62 +403,6 @@ br.space {
 	font-size: 20px;
 }
 
-#tools {
-	background-color: #f3f3f3;
-	padding: 200px 0;
-}
-
-#tools p {
-	margin-bottom: 40px;
-	font-size: 20px;
-}
-
-#tools ul li {
-	display: inline-block;
-	height: 100px;
-	margin: 20px 20px;
-}
-
-#tools span {
-	display: none;
-}
-
-#tools li:nth-child(1) {
-	background-image: url(../images/ps.png);
-	background-repeat: no-repeat;
-	width: 100px;
-}
-
-#tools li:nth-child(2) {
-	background-image: url(../images/ai.png);
-	background-repeat: no-repeat;
-	width: 100px;
-}
-
-#tools li:nth-child(3) {
-	background-image: url(../images/ae.png);
-	background-repeat: no-repeat;
-	width: 100px;
-}
-
-#tools li:nth-child(4) {
-	background-image: url(../images/espresso-icon.png);
-	background-repeat: no-repeat;
-	width: 95px;
-}
-
-#tools li:nth-child(5) {
-	background-image: url(../images/octocat.png);
-	background-repeat: no-repeat;
-	width: 117px;
-}
-
-#tools li:nth-child(6) {
-	background-image: url(../images/wacom.png);
-	background-repeat: no-repeat;
-	width: 105px;
-}
-
 #contact {
 	background-color: #434343;
 	color: #fff;
