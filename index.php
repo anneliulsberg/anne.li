@@ -14,12 +14,18 @@
 		<?php include 'menu.php'; ?>
 		
 		<div class="content" id="intro">
+			<h1>Anneli</h1>
+			<h2>Interaction designer</h2>
+			<p>I am a creative person who enjoys to unfold my creativity either digitally or hands on with paint, brushes and canvas.</p>
+			<p>I espessially like to use my creativity to make beautiful, userfriendly and interactive web designs.</p>
+		</div>
 		
+		<div class="content" id="cards">
+					
 			<div id="card-1" class="card effect__click">
 			 	<div class="card__front">
 					<a class="card__text hover-cards">
-						<h1>Anneli</h1>
-						<h2>Interaction designer</h2>
+					<span class="card__text"></span>
 					</a>
 			 	</div>
 			 	<div class="card__back">
