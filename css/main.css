@@ -217,10 +217,20 @@ br.space {
 	background-repeat: no-repeat;
 }
 
+#card-4 .card__front {
+	background-image: url(../images/card-wacom.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
+#card-4 .card__back p {
+	padding-top: 80%;
 }
 
+#card-4 .card__back {
+	background-image: url(../images/me-picasso.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 #slogan-wrapper {
