@@ -193,8 +193,16 @@ br.space {
 	transition: color 200ms ease-in 100ms;
 }
 
+#card-2 .card__front {
+	background-image: url(../images/card-illustrator.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
+#card-2 .card__back {
+	background-image: url(../images/me-sketch.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 }
