@@ -147,8 +147,13 @@ br.space {
 	background-repeat: no-repeat;
 }
 
+#card-1 .card__back {
+	background-color: #ffffff;
 }
 
+#card-1 .card__back p {
+	font-size: 50px;
+	padding-top: 45%;
 }
 
 }
