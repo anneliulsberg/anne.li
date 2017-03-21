@@ -56,40 +56,9 @@
 					<span class="card__text">back</span>
 			 	</div>
 			</div>
-			
-			<div id="card-5" class="card effect__click">
-			 	<div class="card__front">
-					<a class="card__text hover-cards">front</a>
+					<a class="card__text hover-cards"></a>
 			 	</div>
 			 	<div class="card__back">
-					<span class="card__text">back</span>
-			 	</div>
-			</div>
-			
-			<div id="card-6" class="card effect__click">
-			 	<div class="card__front">
-					<a class="card__text hover-cards">front</a>
-			 	</div>
-			 	<div class="card__back">
-					<span class="card__text">back</span>
-			 	</div>
-			</div>
-			
-			<div id="card-7" class="card effect__click">
-			 	<div class="card__front">
-					<a class="card__text hover-cards">front</a>
-			 	</div>
-			 	<div class="card__back">
-					<span class="card__text">back</span>
-			 	</div>
-			</div>
-			
-			<div id="card-8" class="card effect__click">
-			 	<div class="card__front">
-					<a class="card__text hover-cards">front</a>
-			 	</div>
-			 	<div class="card__back">
-					<span class="card__text">back</span>
 			 	</div>
 			</div>
 		</div>
