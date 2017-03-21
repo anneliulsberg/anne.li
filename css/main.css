@@ -290,11 +290,13 @@ br.space {
 }
 
 #portfolio {
-	padding: 200px 0;
+	padding-top: 150px;
+	padding-bottom: 200px;
+	background-color: #fff;
 }
 
 #portfolio h4 {
-	font-size: 60px;
+	font-size: 75px;
 	font-weight: 900;
 	color: #434343;
 	margin-bottom: 30px;
@@ -330,10 +332,10 @@ br.space {
 
 #portfolio ul li a {
 	color: #fff;
-	left: 2px;
-	right: 2px;
-	top: 2px;
-	bottom: 2px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 	text-align: center;
 	text-decoration: none;
 	position: absolute;
@@ -375,6 +377,7 @@ br.space {
 
 #portfolio #main-portfolio li:nth-child(1) a {
 	background-image: url(../images/oppen.jpg);
+	
 }
 
 #portfolio #main-portfolio li:nth-child(2) a {
