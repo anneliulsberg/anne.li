@@ -55,6 +55,7 @@ br.space {
   padding-bottom: 25%;
   width: 25%;
   text-align: center;
+  overflow: hidden;
 }
 
 .card__front,
@@ -104,6 +105,10 @@ br.space {
 	-o-transition: opacity 200ms ease-in 100ms;
 	transition: opacity 200ms ease-in 100ms;
 	
+}
+
+.card__front:hover {
+		transform: scale(1.1);
 }
 
 .card__front:hover:before {
