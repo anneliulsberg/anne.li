@@ -128,20 +128,7 @@
 				<li><a href="/projects/tourdegolf"><span>Tour de Golf</span></a></li>
 			</ul>
 		</div>
-
-		<div class="content" id="tools">
-	    	<h3>Tools</h3>
-			<p>This is the list of the tools I use while working on projects and which I have the most experience with</p>
-	    	<ul>
-	    		<li><span>Adobe Photoshop</span></li>
-	    		<li><span>Adobe Illustrator</span></li>
-	    		<li><span>Adobe After Effects</span></li>
-	    		<li><span>Espresso</span></li>
-	    		<li><span>GitHub</span></li>
-	    		<li><span>Wacom Bamboo</span></li>
-	    	</ul>   
-		</div>
-		
+				
 		<div class="content" id="contact">
 			<h3>Contact</h3>
 			<p>You can reach me on one or more of these places</p>
