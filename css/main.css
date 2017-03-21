@@ -442,13 +442,13 @@ br.space {
 }
 
 #contact {
-	background-color: #434343;
 	color: #fff;
-	padding: 200px 0;
+	padding: 260px 0;
 }
 
 #contact h3 {
 	color: #fff;
+	font-size: 75px;
 }
 
 #contact p {
