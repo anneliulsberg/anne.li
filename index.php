@@ -29,7 +29,7 @@
 					</a>
 			 	</div>
 			 	<div class="card__back">
-					<span class="card__text"></span>
+					<p class="card__text"><a href="https://github.com/anneliulsberg">I Git it!</a></p>
 			 	</div>
 			</div>
 			
