@@ -114,20 +114,16 @@ br.space {
 /* style the content
 --------------------------------------------- */
 
-}
-
-#card-1 .card__front h1 {
-	color: #434343;
-	font-size: 61px;
+#intro {
+	color: #ffffff;
 	font-weight: 900;
-	margin-top: 40%;
+	padding: 360px 0;
 }
 
-#card-1 .card__front h2 {
-	color: #434343;
-	font-size: 21px;
-	font-weight: 100;
-	text-indent: -2px;
+#intro h1 {
+	font-size: 150px;
+}
+
 }
 
 #card-1 .card__front:hover {
