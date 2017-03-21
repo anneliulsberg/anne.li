@@ -69,6 +69,8 @@
 			</div>
 		</div>	
 		
+		<br class="space">
+		
 		<div class="content" id="portfolio">
 			<h4>Portfolio</h4>
 			<p>These projects portray my skills in responsive design, CSS, HTML and illustration</p>
