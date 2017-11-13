@@ -71,6 +71,8 @@
 		
 		<br class="space">
 		
+		<br class="space" />
+		
 		<div class="content" id="portfolio">
 			<h4>Portfolio</h4>
 			<p>These projects portray my skills in responsive design, CSS, HTML and illustration</p>
@@ -99,7 +101,7 @@
 				<li><a href="/projects/tourdegolf"><span>Tour de Golf</span></a></li>
 			</ul>
 		</div>
-				
+
 		<div class="content" id="contact">
 			<h3>Contact</h3>
 			<p>You can reach me on one or more of these places</p>
