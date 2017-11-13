@@ -5,33 +5,71 @@
 		<meta charset="utf-8">
 		<meta name="description" content="Anneli Ulsberg is a web and interaction designer from Berlevåg, Norway, living in Oslo." />
 		<title>Anneli Ulsberg - Web and interaction designer</title>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,900' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/main.css" type="text/css" />
 		<link rel="icon" type="image/x-icon" href="favicon.ico" />	
  	</head>
 	
 	<body>
 		<?php include 'menu.php'; ?>
-
-		<div class="parallax">
-			<div class="parallax-group">
-				<div class="layer"></div>
-			</div>	
 		
-		<div class="content" id="about">
-			<div id="about-wrapper">	
-				<h1>Anneli</h1>
-				<h2>Interaction designer</h2>
-				<p>I am a creative person who enjoys to unfold my creativity either digitally or hands on with paint, brushes and canvas.</p>
-				<p>I espessially like to use my creativity to make beautiful, userfriendly and interactive web designs.</p>
+		<div class="content" id="intro">
+			<h1>Anneli</h1>
+			<h2>Interaction designer</h2>
+			<p>I am a creative person who enjoys to unfold my creativity either digitally or hands on with paint, brushes and canvas.</p>
+			<p>I espessially like to use my creativity to make beautiful, userfriendly and interactive web designs.</p>
+		</div>
+		
+		<div class="content" id="tools">
+					
+			<div id="card-1" class="card effect__click">
+			 	<div class="card__front">
+					<a class="card__text hover-cards">
+					<span class="card__text"></span>
+					</a>
+			 	</div>
+			 	<div class="card__back">
+					<p class="card__text"><a href="https://github.com/anneliulsberg">I Git it!</a></p>
+			 	</div>
+			</div>
+			
+			<div id="card-2" class="card effect__click">
+			 	<div class="card__front">
+					<a class="card__text hover-cards"></a>
+			 	</div>
+			 	<div class="card__back">
+					<span class="card__text"></span>
+			 	</div>
+			</div>
+			
+			<div id="card-3" class="card effect__click">
+			 	<div class="card__front">
+					<a class="card__text hover-cards">
+					<span class="card__text"></span>
+					</a>
+			 	</div>
+			 	<div class="card__back">
+					<span class="card__text"></span>
+			 	</div>
+			</div>
+			
+			<div id="card-4" class="card effect__click">
+			 	<div class="card__front">
+					<a class="card__text hover-cards"></a>
+			 	</div>
+			 	<div class="card__back">
+					<span class="card__text"><p>“Good artists copy. Great artists steal. - Picasso”</p></span>
+			 	</div>
 			</div>
 		</div>
+
+		<div class="content" id="slogan-wrapper">
+			<div id="slogan">
+				<h1>Creativity is my game</h1>
+			</div>
+		</div>	
 		
-		<br class="space" />
-		
-		<div class="content" id="slogan">
-			<h3>Creativity is my game</h3>
-		</div>
+		<br class="space">
 		
 		<br class="space" />
 		
@@ -62,26 +100,8 @@
 				<li><a href="/projects/ungarena"><span>Ung Arena</span></a></li>
 				<li><a href="/projects/tourdegolf"><span>Tour de Golf</span></a></li>
 			</ul>
-			
 		</div>
-		
-		<br class="space" />
 
-		<div class="content" id="tools">
-	    	<h3>Tools</h3>
-			<p>This is the list of the tools I use while working on projects and which I have the most experience with</p>
-	    	<ul>
-	    		<li><span>Adobe Photoshop</span></li>
-	    		<li><span>Adobe Illustrator</span></li>
-	    		<li><span>Adobe After Effects</span></li>
-	    		<li><span>Espresso</span></li>
-	    		<li><span>GitHub</span></li>
-	    		<li><span>Wacom Bamboo</span></li>
-	    	</ul>   
-		</div>
-		
-		<br class="space" />
-		
 		<div class="content" id="contact">
 			<h3>Contact</h3>
 			<p>You can reach me on one or more of these places</p>
@@ -93,7 +113,9 @@
 				<li><a href="https://twitter.com/litntweet"><span>Twitter</span></a></li>
 			</ul>	     
 		</div>
-	</div>  	
+	
+		<script src="js/main.js" type="text/javascript"></script>
+	
 		
 	</body>
 </html>
