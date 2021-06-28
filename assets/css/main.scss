@@ -1,3 +1,7 @@
+---
+# main.scss
+---
+
 @import url("reset.css");
 @import url("nav.css");
 @font-face {
@@ -100,11 +104,11 @@ br.space {
 	background: -webkit-radial-gradient(center, ellipse cover, rgba(67,67,67,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: radial-gradient(ellipse at center, rgba(67,67,67,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43434300', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
-	-webkit-transition: opacity 200ms ease-in 100ms; 
+	-webkit-transition: opacity 200ms ease-in 100ms;
 	-moz-transition: opacity 200ms ease-in 100ms;
 	-o-transition: opacity 200ms ease-in 100ms;
 	transition: opacity 200ms ease-in 100ms;
-	
+
 }
 
 .card__front:hover {
@@ -113,7 +117,7 @@ br.space {
 
 .card__front:hover:before {
 	opacity: 1;
-	
+
 }
 
 /* style the content
@@ -192,7 +196,7 @@ br.space {
 
 #card-1 .card__back a:hover {
 	color: #0091B0;
-	-webkit-transition: color 200ms ease-in 100ms; 
+	-webkit-transition: color 200ms ease-in 100ms;
 	-moz-transition: color 200ms ease-in 100ms;
 	-o-transition: color 200ms ease-in 100ms;
 	transition: color 200ms ease-in 100ms;
@@ -288,7 +292,7 @@ br.space {
 
 .text-hover a:hover {
 	color: #0091B0;
-	-webkit-transition: color 200ms ease-in 100ms; 
+	-webkit-transition: color 200ms ease-in 100ms;
 	-moz-transition: color 200ms ease-in 100ms;
 	-o-transition: color 200ms ease-in 100ms;
 	transition: color 200ms ease-in 100ms;
@@ -363,7 +367,7 @@ br.space {
 	z-index: 2;
 	text-align: center;
 	opacity: 0;
-	-webkit-transition: all 150ms ease-in 100ms; 
+	-webkit-transition: all 150ms ease-in 100ms;
 	-moz-transition: all 150ms ease-in 100ms;
 	-o-transition: all 150ms ease-in 100ms;
 	transition: all 150ms ease-in 100ms;
@@ -371,15 +375,15 @@ br.space {
 
 #portfolio ul a:hover span {
 	opacity: 1;
-	
-} 
+
+}
 
 #portfolio ul a:hover {
 	transform: scale(1.1);
 }
 
 #portfolio ul a::before {
-	-webkit-transition: all 150ms ease-in 100ms; 
+	-webkit-transition: all 150ms ease-in 100ms;
 	-moz-transition: all 150ms ease-in 100ms;
 	-o-transition: all 150ms ease-in 100ms;
 	transition: all 150ms ease-in 100ms;
@@ -399,7 +403,7 @@ br.space {
 
 #portfolio #main-portfolio li:nth-child(1) a {
 	background-image: url(../images/oppen.jpg);
-	
+
 }
 
 #portfolio #main-portfolio li:nth-child(2) a {
@@ -521,7 +525,7 @@ br.space {
 }
 
 #contact li a:hover {
-	-webkit-transition: background 200ms ease-in 100ms; 
+	-webkit-transition: background 200ms ease-in 100ms;
 	-moz-transition: background 200ms ease-in 100ms;
 	-o-transition: background 200ms ease-in 100ms;
 	transition: background 200ms ease-in 100ms;
@@ -557,16 +561,16 @@ br.space {
 
 
 @media (max-width: 967px) {
- 	
+
  	#portfolio ul a span {
  		font-size: 20px;
  	}
- 	
+
  	#portfolio ul li {
  		width: 50%;
  		padding-bottom: 50%;
  	}
- 	
+
  	.card {
  	 	padding-bottom: 50%;
  	 	width: 50%;
@@ -575,75 +579,75 @@ br.space {
 
 
 @media (max-width: 779px) {
- 	
+
  	#contact ul li a {
  		height: 50px;
  		margin-right: 10px;
  		margin-bottom: 10px;
  	}
- 	
+
  	#contact li:nth-child(1) a {
  		background-size: 55px;
  		width: 55px;
  	}
- 	
+
  	#contact li:nth-child(2) a {
  		background-size: 50px;
  		width: 50px;
  	}
- 	
+
  	#contact li:nth-child(3) a {
  		background-size: 78px;
  		width: 78px;
  	}
- 	
+
  	#contact li:nth-child(4) a {
  		background-size: 51px;
  		width: 51px;
  	}
- 	
+
  	#contact li:nth-child(5) a {
  		background-size: 61px;
  		width: 61px;
  	}
- 	
+
  	#contact li:nth-child(1) a:hover {
  		background-size: 55px;
  		width: 55px;
  	}
- 	
+
  	#contact li:nth-child(2) a:hover {
  		background-size: 50px;
  		width: 50px;
  	}
- 	
+
  	#contact li:nth-child(3) a:hover {
  		background-size: 78px;
  		width: 78px;
  	}
- 	
+
  	#contact li:nth-child(4) a:hover {
  		background-size: 51px;
  		width: 51px;
  	}
- 	
+
  	#contact li:nth-child(5) a:hover {
  		background-size: 61px;
  		width: 61px;
- 	} 	
-}	
+ 	}
+}
 
 @media (max-width: 612px) {
- 	
+
  	#portfolio ul li {
  		width: 100%;
 		padding-bottom: 100%;
  	}
- 	
+
  	#portfolio ul a span {
  	    font-size: 20px;
  	}
- 	
+
  	.card {
  		padding-bottom: 100%;
  		width: 100%;
@@ -651,15 +655,15 @@ br.space {
 }
 
 @media (max-width: 492px) {
-	
+
 	#slogan h1 {
 		font-size: 30px;
 	}
- 	
+
  	#portfolio h4 {
  		font-size: 50px;
- 	} 
- 	
+ 	}
+
  	#contact h3 {
  		font-size: 50px;
  	}

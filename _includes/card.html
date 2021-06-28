@@ -1,0 +1,12 @@
+{% assign card_count = card_count | plus: 1 %}
+
+<div id="card-{{ card_count }}" class="card effect__click">
+    <div class="card__front">
+       <a class="card__text hover-cards">
+       <span class="card__text"></span>
+       </a>
+    </div>
+    <div class="card__back">
+       <div class="card__text">{{ include.text | markdownify }}</div>
+    </div>
+</div>
