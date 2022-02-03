@@ -40,21 +40,11 @@ the usability is very flexible.
 {: #showcase-img }
 ![Business card for Lokalrorleggeren AS]({{ '/assets/images/showcase-lokalrorleggeren.jpg' | relative_url }})
 
-<div id="project-profile" markdown="1">
-{: #project-font }
-![Roboto font]({{ '/assets/images/the-font-roboto.png' | relative_url }})
-
-{: #project-logo }
-![Lokalrorleggeren logo]({{ '/assets/images/lokalrorleggeren-logo.png' | relative_url }})
-
-<div id="color-profile" markdown="1">
-* {: #color-1 }
-* {: #color-2 }
-* {: #color-3 }
-* {: #color-4 }
-* {: #color-5 }
-</div>
-</div>
+{% include project-profile.html
+    font_name='Roboto'
+    font_src='the-font-roboto.png'
+    logo_alt='Lokalrorleggeren logo'
+    logo_src='lokalrorleggeren-logo.png' %}
 
 <div id="process" markdown="1">
 ![Logo with color on light background]({{ '/assets/images/prosess-projects-lokalrorleggeren-logo-1.jpg' | relative_url }}){: #process-img-1 }

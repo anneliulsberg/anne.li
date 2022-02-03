@@ -74,20 +74,10 @@ friends, families and followers.
 {: #showcase-img }
 ![Showcase for 16 dager med aktivisme]({{ '/assets/images/showcase-16dager.jpg' | relative_url }})
 
-<div id="project-profile" markdown="1">
-{: #project-font }
-![Gotham font]({{ '/assets/images/gotham-font.png' | relative_url }})
-
-{: #project-logo }
-![16 dager med aktivisme ribbon logo]({{ '/assets/images/16dager-ribbon-logo.png' | relative_url }})
-
-<div id="color-profile" markdown="1">
-* {: #color-1 }
-* {: #color-2 }
-* {: #color-3 }
-* {: #color-4 }
-* {: #color-5 }
-</div>
-</div>
+{% include project-profile.html
+    font_name='Gotham'
+    font_src='gotham-font.png'
+    logo_alt='16 dager med aktivisme ribbon logo'
+    logo_src='16dager-ribbon-logo.png' %}
 
 ![Image of a woman ready to make a change]({{ '/assets/images/prosess-yes-we-can.jpg' | relative_url }}){: #process-big }

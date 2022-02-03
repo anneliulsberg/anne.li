@@ -36,21 +36,11 @@ are sorted after size to balance out all the visual noise.
 {: #showcase-img }
 ![Showcase for Tour de Golf]({{ '/assets/images/showcase-tourdegolf.jpg' | relative_url }})
 
-<div id="project-profile" markdown="1">
-{: #project-font }
-![Gotham font]({{ '/assets/images/the-font-gotham.png' | relative_url }})
-
-{: #project-logo }
-![Tour de Golf logo]({{ '/assets/images/tourdegolf-logo.png' | relative_url }})
-
-<div id="color-profile" markdown="1">
-* {: #color-1 }
-* {: #color-2 }
-* {: #color-3 }
-* {: #color-4 }
-* {: #color-5 }
-</div>
-</div>
+{% include project-profile.html
+    font_name='Gotham'
+    font_src='the-font-gotham.png'
+    logo_alt='Tour de Golf logo'
+    logo_src='tourdegolf-logo.png' %}
 
 <div id="process" markdown="1">
 ![Front of the brochure]({{ '/assets/images/prosess-projects-tourdegolf-brochure-1.jpg' | relative_url }}){: #process-img-1 }

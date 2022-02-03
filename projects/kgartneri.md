@@ -40,21 +40,11 @@ delicious.
 {: #showcase-img }
 ![Showcase for Kjær gartneri]({{ '/assets/images/showcase-kgartneri.jpg' | relative_url }})
 
-<div id="project-profile" markdown="1">
-{: #project-font }
-![Yanone Kaffeesatz]({{ '/assets/images/kgartneri-font.png' | relative_url }})
-
-{: #project-logo }
-![Logo for Kjær Gartneri]({{ '/assets/images/kgartneri-logo.png' | relative_url }})
-
-<div id="color-profile" markdown="1">
-* {: #color-1 }
-* {: #color-2 }
-* {: #color-3 }
-* {: #color-4 }
-* {: #color-5 }
-</div>
-</div>
+{% include project-profile.html
+    font_name='Yanone Kaffeesatz'
+    font_src='kgartneri-font.png'
+    logo_alt='Logo for Kjær Gartneri'
+    logo_src='kgartneri-logo.png' %}
 
 <div id="project-video-width">
     <div id="project-video-wrapper">

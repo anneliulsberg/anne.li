@@ -51,21 +51,11 @@ be online.
 {: #showcase-img }
 ![Showcase for Lærum VVS]({{ '/assets/images/showcase-lvvs.jpg' | relative_url }})
 
-<div id="project-profile" markdown="1">
-{: #project-font }
-![Lato font]({{ '/assets/images/the-font-lato.png' | relative_url }})
-
-{: #project-logo }
-![Lvvs logo]({{ '/assets/images/logo-ed.png' | relative_url }})
-
-<div id="color-profile" markdown="1">
-* {: #color-1 }
-* {: #color-2 }
-* {: #color-3 }
-* {: #color-4 }
-* {: #color-5 }
-</div>
-</div>
+{% include project-profile.html
+    font_name='Lato'
+    font_src='the-font-lato.png'
+    logo_alt='Lvvs logo'
+    logo_src='logo-ed.png' %}
 
 ![The old site]({{ '/assets/images/lvvs-old-site.jpg' | relative_url }}){: #process-big }
 ![The new site]({{ '/assets/images/desktop-lvvs.jpg' | relative_url }}){: #process-big-2 }

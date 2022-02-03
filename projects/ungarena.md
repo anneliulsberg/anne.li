@@ -37,21 +37,11 @@ the rollup to make it more recognisable.
 {: #showcase-img }
 ![Rollup showcase for Ung Arena]({{ '/assets/images/showcase-rollup-ungarena.jpg' | relative_url }})
 
-<div id="project-profile" markdown="1">
-{: #project-font }
-![Gotham font]({{ '/assets/images/the-font-gotham.png' | relative_url }})
-
-{: #project-logo }
-![Ung Arena logo]({{ '/assets/images/ung-arena-logo.png' | relative_url }})
-
-<div id="color-profile" markdown="1">
-* {: #color-1 }
-* {: #color-2 }
-* {: #color-3 }
-* {: #color-4 }
-* {: #color-5 }
-</div>
-</div>
+{% include project-profile.html
+    font_name='Gotham'
+    font_src='the-font-gotham.png'
+    logo_alt='Ung Arena logo'
+    logo_src='ung-arena-logo.png' %}
 
 
 ![Rollup for Ung Arena]({{ '/assets/images/rollup-ungarena.svg' | relative_url }}){: #process-big }

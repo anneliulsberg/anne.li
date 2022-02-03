@@ -51,21 +51,11 @@ ground during an an activity like geocaching.
 {: #showcase-img }
 ![Showcase for go]({{ '/assets/images/showcase-go.jpg' | relative_url }})
 
-<div id="project-profile" markdown="1">
-{: #project-font }
-![The PT sans font]({{ '/assets/images/go-font.png' | relative_url }})
-
-{: #project-logo }
-![go! logo]({{ '/assets/images/go-logo.png' | relative_url }})
-
-<div id="color-profile" markdown="1">
-* {: #color-1 }
-* {: #color-2 }
-* {: #color-3 }
-* {: #color-4 }
-* {: #color-5 }
-</div>
-</div>
+{% include project-profile.html
+    font_name='The PT sans'
+    font_src='go-font.png'
+    logo_alt='go! logo'
+    logo_src='go-logo.png' %}
 
 <div id="process" markdown="1">
 ![Log in screen on go! device]({{ '/assets/images/prosess-projects-go-hw-1.jpg' | relative_url }}){: #process-img-1 }

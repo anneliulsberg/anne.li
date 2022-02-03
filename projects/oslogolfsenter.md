@@ -37,21 +37,11 @@ and the usability is very flexible.
 {: #showcase-img }
 ![Showcase for Oslo Golfsenter]({{ '/assets/images/showcase-oslogolfsenter.jpg' | relative_url }})
 
-<div id="project-profile" markdown="1">
-{: #project-font }
-![Ubuntu Condensed font]({{ '/assets/images/ubuntu-condensed-font.png' | relative_url }})
-
-{: #project-logo }
-![Oslo Golfsenter logo]({{ '/assets/images/oslogolfsenter-logo.png' | relative_url }})
-
-<div id="color-profile" markdown="1">
-* {: #color-1 }
-* {: #color-2 }
-* {: #color-3 }
-* {: #color-4 }
-* {: #color-5 }
-</div>
-</div>
+{% include project-profile.html
+    font_name='Ubuntu Condensed'
+    font_src='ubuntu-condensed-font.png'
+    logo_alt='Oslo Golfsenter logo'
+    logo_src='oslogolfsenter-logo.png' %}
 
 <div id="process" markdown="1">
 ![Logo with color on light background]({{ '/assets/images/prosess-projects-oslo-golfsenter-logo-1.jpg' | relative_url }}){: #process-img-1 }

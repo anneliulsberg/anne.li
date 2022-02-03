@@ -41,20 +41,10 @@ follow the rest of the story.
 {: #showcase-img }
 ![Showcase for Despicable me - Kinetic typography]({{ '/assets/images/showcase-kinetic.jpg' | relative_url }})
 
-<div id="project-profile" markdown="1">
-{: #project-font }
-![HeadlineNEWS]({{ '/assets/images/font-kinetic.png' | relative_url }})
-
-{: #project-logo }
-![The Despicable logo]({{ '/assets/images/despicable-logo.png' | relative_url }})
-
-<div id="color-profile" markdown="1">
-* {: #color-1 }
-* {: #color-2 }
-* {: #color-3 }
-* {: #color-4 }
-* {: #color-5 }
-</div>
-</div>
+{% include project-profile.html
+    font_name='HeadlineNEWS'
+    font_src='font-kinetic.png'
+    logo_alt='The Despicable logo'
+    logo_src='despicable-logo.png' %}
 
 ![Margo, Edith and Agnes' names in their own font style]({{ '/assets/images/prosess-kinetic-font.jpg' | relative_url }}){: #process-big }
