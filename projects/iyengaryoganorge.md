@@ -5,15 +5,9 @@ project: main
 order: 90
 ---
 
-![The Yengar Yoga logo with the flower illustration and stripes in the background]({{ '/assets/images/intro-img-iyengaryoga.jpg' | relative_url }}){: #intro-img }
-
-<div id="intro">
-<div id="intro-container" markdown="1">
-# {{ page.title }}
-
-{{ page.description }}
-</div>
-</div>
+{% include intro.html
+    alt='The Yengar Yoga logo with the flower illustration and stripes in the background'
+    src='intro-img-iyengaryoga.jpg' %}
 
 <div id="info-container" markdown="1">
 <article markdown="1">

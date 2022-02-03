@@ -5,15 +5,9 @@ project: new-element
 order: 10
 ---
 
-![The logo illustration of a minimalistic person making a golf swing]({{ '/assets/images/intro-img-oslogolfsenter.jpg' | relative_url }}){: #intro-img }
-
-<div id="intro">
-<div id="intro-container" markdown="1">
-# {{ page.title }}
-
-{{ page.description }}
-</div>
-</div>
+{% include intro.html
+    alt='The logo illustration of a minimalistic person making a golf swing'
+    src='intro-img-oslogolfsenter.jpg' %}
 
 <div id="info-container">
 <article markdown="1">

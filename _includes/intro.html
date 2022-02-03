@@ -1,0 +1,11 @@
+{% assign full_src = include.src | prepend: '/assets/images/' | relative_url %}
+
+![{{ include.alt }}]({{ full_src }}){: #intro-img }
+
+<div id="intro">
+<div id="intro-container" markdown="1">
+# {{ page.title }}
+
+{{ page.description }}
+</div>
+</div>

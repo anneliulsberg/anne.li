@@ -5,15 +5,9 @@ project: main
 order: 10
 ---
 
-![Art photo of a girl]({{ '/assets/images/intro-img-oppenfotografi.jpg' | relative_url }}){: #intro-img }
-
-<div id="intro">
-<div id="intro-container" markdown="1">
-# {{ page.title }}
-
-{{ page.description }}
-</div>
-</div>
+{% include intro.html
+    alt='Art photo of a girl'
+    src='intro-img-oppenfotografi.jpg' %}
 
 <div id="info-container" markdown="1">
 <article markdown="1">

@@ -5,15 +5,9 @@ project: new-element
 order: 40
 ---
 
-![Illustration of a brain]({{ '/assets/images/intro-img-ungarena.jpg' | relative_url }}){: #intro-img }
-
-<div id="intro">
-<div id="intro-container" markdown="1">
-# {{ page.title }}
-
-{{ page.description }}
-</div>
-</div>
+{% include intro.html
+    alt='Illustration of a brain'
+    src='intro-img-ungarena.jpg' %}
 
 <div id="info-container">
 <article markdown="1">

@@ -5,15 +5,9 @@ project: main
 order: 40
 ---
 
-![Margo, Edith, and Agnes]({{ '/assets/images/intro-img-kinetic.jpg' | relative_url }}){: #intro-img }
-
-<div id="intro">
-<div id="intro-container" markdown="1">
-# {{ page.title }}
-
-{{ page.description }}
-</div>
-</div>
+{% include intro.html
+    alt='Margo, Edith, and Agnes'
+    src='intro-img-kinetic.jpg' %}
 
 <div id="info-container" markdown="1">
 <article markdown="1">

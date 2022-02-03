@@ -5,15 +5,9 @@ project: new-element
 order: 50
 ---
 
-![Tour de Golf logo]({{ '/assets/images/intro-img-tour-de-golf.jpg' | relative_url }}){: #intro-img }
-
-<div id="intro">
-<div id="intro-container" markdown="1">
-# {{ page.title }}
-
-{{ page.description }}
-</div>
-</div>
+{% include intro.html
+    alt='Tour de Golf logo'
+    src='intro-img-tour-de-golf.jpg' %}
 
 <div id="info-container">
 <article markdown="1">

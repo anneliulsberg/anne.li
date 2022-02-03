@@ -5,15 +5,9 @@ project: main
 order: 70
 ---
 
-![An illustration made of a mash up of the icons used in the infographic]({{ '/assets/images/intro-img-infographic-wow.jpg' | relative_url }}){: #intro-img }
-
-<div id="intro">
-<div id="intro-container" markdown="1">
-# {{ page.title }}
-
-{{ page.description }}
-</div>
-</div>
+{% include intro.html
+    alt='An illustration made of a mash up of the icons used in the infographic'
+    src='intro-img-infographic-wow.jpg' %}
 
 <div id="info-container">
 <article markdown="1">

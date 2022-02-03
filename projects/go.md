@@ -5,15 +5,9 @@ project: main
 order: 80
 ---
 
-![The logo for go! on a dark background]({{ '/assets/images/intro-img-go.jpg' | relative_url }}){: #intro-img }
-
-<div id="intro">
-<div id="intro-container" markdown="1">
-# {{ page.title }}
-
-{{ page.description }}
-</div>
-</div>
+{% include intro.html
+    alt='The logo for go! on a dark background'
+    src='intro-img-go.jpg' %}
 
 <div id="info-container">
 <article markdown="1">

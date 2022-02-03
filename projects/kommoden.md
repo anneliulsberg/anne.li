@@ -5,15 +5,9 @@ project: main
 order: 50
 ---
 
-![The paper doll with dress up cards]({{ '/assets/images/intro-img-kommoden.jpg' | relative_url }}){: #intro-img }
-
-<div id="intro">
-<div id="intro-container" markdown="1">
-# {{ page.title }}
-
-{{ page.description }}
-</div>
-</div>
+{% include intro.html
+    alt='The paper doll with dress up cards'
+    src='intro-img-kommoden.jpg' %}
 
 <div id="info-container" markdown="1">
 <article markdown="1">

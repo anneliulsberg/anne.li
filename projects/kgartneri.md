@@ -5,15 +5,9 @@ project: main
 order: 100
 ---
 
-![The Kjær gartneri logo on a background of tomato plants]({{ '/assets/images/intro-img-kgartneri.jpg' | relative_url }}){: #intro-img }
-
-<div id="intro">
-<div id="intro-container" markdown="1">
-# {{ page.title }}
-
-{{ page.description }}
-</div>
-</div>
+{% include intro.html
+    alt='The Kjær gartneri logo on a background of tomato plants'
+    src='intro-img-kgartneri.jpg' %}
 
 <div id="info-container">
 <article markdown="1">

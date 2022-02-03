@@ -5,15 +5,9 @@ project: main
 order: 30
 ---
 
-![Florian and a flower]({{ '/assets/images/intro-img-florian.jpg' | relative_url }}){: #intro-img }
-
-<div id="intro">
-<div id="intro-container" markdown="1">
-# {{ page.title }}
-
-{{ page.description }}
-</div>
-</div>
+{% include intro.html
+    alt='Florian and a flower'
+    src='intro-img-florian.jpg' %}
 
 <div id="info-container" markdown="1">
 <article markdown="1">

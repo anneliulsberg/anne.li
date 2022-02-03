@@ -5,15 +5,9 @@ project: main
 order: 60
 ---
 
-![Minimalistic illustration of three women and the campaign logo in background]({{ '/assets/images/intro-img-16dager.jpg' | relative_url }}){: #intro-img }
-
-<div id="intro">
-<div id="intro-container" markdown="1">
-# {{ page.title }}
-
-{{ page.description }}
-</div>
-</div>
+{% include intro.html
+    alt='Minimalistic illustration of three women and the campaign logo in background'
+    src='intro-img-16dager.jpg' %}
 
 <div id="info-container" markdown="1">
 <article markdown="1">
