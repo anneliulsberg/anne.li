@@ -1,0 +1,33 @@
+{%- assign title = page.title | default: site.data.settings.title | strip -%}
+{%- assign description = page.description | default: site.data.settings.description | strip -%}
+{%- if page.url contains 'projects/' -%}
+{%- assign stylesheet = page.url | split: '/' | last | append: '.css' | prepend: '/assets/css/' -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Anneli Ulsberg is a web and interaction designer from Berlevåg, Norway, living in Oslo." />
+        <title>{{ title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="author" content="{{ site.author }}">
+        <meta property="og:type" value="website">
+        <meta property="og:url" value="https://anne.li/">
+        <meta property="og:title" value="{{ title }}">
+        <meta name="title" content="{{ title }}">
+        <meta property="og:description" value="{{ description }}">
+        <meta name="description" content="{{ description }}">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ stylesheet | default: '/assets/css/main.css' | relative_url }}">
+        <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+        <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" />
+ 	</head>
+
+	<body>
+        {% include menu.html %}
+
+        {{ content }}
+
+		<script src="{{ '/assets/js/main.js' | relative_url }}" type="text/javascript"></script>
+	</body>
+</html>

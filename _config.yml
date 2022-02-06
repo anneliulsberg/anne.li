@@ -1,0 +1,31 @@
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+
+defaults:
+  - values:
+      layout: default
+      description: |
+        Anneli Ulsberg is a web and interaction designer from Berlevåg, Norway,
+        living in Oslo.
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - readme.md
+  - .gitignore
+  - spec
+  - Rakefile
+  - coverage

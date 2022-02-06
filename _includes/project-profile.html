@@ -1,0 +1,18 @@
+{% assign full_font_src = include.font_src | prepend: '/assets/images/' | relative_url %}
+{% assign full_logo_src = include.logo_src | prepend: '/assets/images/' | relative_url %}
+
+<div id="project-profile" markdown="1">
+{: #project-font }
+![{{ include.font_name }} font]({{ full_font_src }})
+
+{: #project-logo }
+![{{ include.logo_alt }}]({{ full_logo_src }})
+
+<div id="color-profile" markdown="1">
+* {: #color-1 }
+* {: #color-2 }
+* {: #color-3 }
+* {: #color-4 }
+* {: #color-5 }
+</div>
+</div>
