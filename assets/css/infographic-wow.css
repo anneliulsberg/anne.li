@@ -1,0 +1,38 @@
+@import url("reset.css");
+@import url("project.css");
+
+#info-container article p {
+    padding: 20px 20px 100px 20px;
+}
+
+#project-font p {
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-size: 30px;
+	padding-top: 117px
+}
+
+#project-logo img {
+	position: absolute;
+	top: 32%;
+	left: 25%;
+}
+
+#color-profile ul li#color-1 {
+	background-color: #121313;
+}
+
+#color-profile ul li#color-2 {
+	background-color: #F6951D;
+}
+
+#color-profile ul li#color-3 {
+	background-color: #E5F0F8;
+}
+
+#color-profile ul li#color-4 {
+	background-color: #70CAF2;
+}
+
+#color-profile ul li#color-5 {
+	background-color: #0F75BC;
+}

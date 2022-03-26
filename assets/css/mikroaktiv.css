@@ -1,0 +1,28 @@
+@import url("reset.css");
+@import url("project.css");
+
+#project-font p {
+	font-family: 'Finger Paint';
+	font-size: 30px;
+	padding-top: 117px
+}
+
+#color-profile ul li#color-1 {
+	background-color: #4E8AC0;
+}
+
+#color-profile ul li#color-2 {
+	background-color: #8ECE5F;
+}
+
+#color-profile ul li#color-3 {
+	background-color: #F5D95C;
+}
+
+#color-profile ul li#color-4 {
+	background-color: #DE462F;
+}
+
+#color-profile ul li#color-5 {
+	background-color: #FFFFFF;
+}

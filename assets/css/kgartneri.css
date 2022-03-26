@@ -1,0 +1,40 @@
+@import url("reset.css");
+@import url("project.css");
+
+#info-container article p {
+    padding: 20px 20px 100px 20px;
+}
+
+#project-font img {
+	width: 20%;
+	position: absolute;
+	top: 37%;
+	left: 2%;
+}
+
+#project-logo img {
+	position: absolute;
+	top: 8%;
+	left: 30%;
+	width: 40%;
+}
+
+#color-profile ul li#color-1 {
+	background-color: #b92e29;
+}
+
+#color-profile ul li#color-2 {
+	background-color: #ffffff;
+}
+
+#color-profile ul li#color-3 {
+	background-color: #222222;
+}
+
+#color-profile ul li#color-4 {
+	background-color: #2a221a;
+}
+
+#color-profile ul li#color-5 {
+	background-color: #fff6e5;
+}

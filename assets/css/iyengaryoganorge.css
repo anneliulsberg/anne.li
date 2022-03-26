@@ -1,0 +1,35 @@
+@import url("reset.css");
+@import url("project.css");
+
+#project-font p {
+	font-family: 'Fondamento';
+	font-size: 50px;
+	padding-top: 117px
+}
+
+#project-logo img {
+	position: absolute;
+	top: 12%;
+	left: 30%;
+	width: 40%;
+}
+
+#color-profile ul li#color-1 {
+	background-color: #0E405A;
+}
+
+#color-profile ul li#color-2 {
+	background-color: #285A75;
+}
+
+#color-profile ul li#color-3 {
+	background-color: #6D97AD;
+}
+
+#color-profile ul li#color-4 {
+	background-color: #B4E0F8;
+}
+
+#color-profile ul li#color-5 {
+	background-color: #FFFFFF;
+}

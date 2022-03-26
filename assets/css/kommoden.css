@@ -1,0 +1,34 @@
+@import url("reset.css");
+@import url("project.css");
+
+#project-font p {
+	font-family: 'Rammetto one';
+	font-size: 30px;
+	padding-top: 117px
+}
+
+#project-logo img {
+	position: absolute;
+	top: 8%;
+	left: 27%;
+}
+
+#color-profile ul li#color-1 {
+	background-color: #007613;
+}
+
+#color-profile ul li#color-2 {
+	background-color: #F8FCF8;
+}
+
+#color-profile ul li#color-3 {
+	background-color: #FFF3D7;
+}
+
+#color-profile ul li#color-4 {
+	background-color: #FFB400;
+}
+
+#color-profile ul li#color-5 {
+	background-color: #C90000;
+}

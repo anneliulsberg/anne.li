@@ -1,0 +1,36 @@
+@import url("reset.css");
+@import url("project.css");
+
+#project-font img {
+	width: 20%;
+	position: absolute;
+	top: 30%;
+	left: 2%;
+}
+
+#project-logo img {
+	width: 30%;
+	position: absolute;
+	top: 8%;
+	left: 35%;
+}
+
+#color-profile ul li#color-1 {
+	background-color: #15092D;
+}
+
+#color-profile ul li#color-2 {
+	background-color: #271052;
+}
+
+#color-profile ul li#color-3 {
+	background-color: #855187;
+}
+
+#color-profile ul li#color-4 {
+	background-color: #C9BACF;
+}
+
+#color-profile ul li#color-5 {
+	background-color: #FFFFFF;
+}
